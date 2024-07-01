@@ -1,16 +1,16 @@
-<section id="DA&ML">
+<section id="da-ml">
   <h1>DA & ML</h1>
-  <p> Data Analytics & Machine Learning </p>
+  <p>Data Analytics & Machine Learning</p>
 </section>
 
-<section id="DE&SQL">
+<section id="de-sql">
   <h1>DE & SQL</h1>
-  <p> Data Analytics & Machine Learning </p>
+  <p>Data Engineering & SQL</p>
 </section>
 
-<section id="BI-vis&BA">
+<section id="bi-vis-ba">
   <h1>BI - vis & BA</h1>
-  <p> Data Analytics & Machine Learning </p>
+  <p>Business Intelligence - Visualization & Business Analytics</p>
 </section>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
