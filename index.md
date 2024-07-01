@@ -1,3 +1,18 @@
+<section id="DA & ML">
+  <h1>DA & ML</h1>
+  <p> Data Analytics & Machine Learning </p>
+</section>
+
+<section id="DE & SQL">
+  <h1>DE & SQL</h1>
+  <p> Data Analytics & Machine Learning </p>
+</section>
+
+<section id="BI - vis & BA">
+  <h1>BI - vis & BA</h1>
+  <p> Data Analytics & Machine Learning </p>
+</section>
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
