@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Projects
+title: Njeri Macharia
+description: Projects
 ---
 
 # Projects
