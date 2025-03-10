@@ -44,3 +44,22 @@
 .project-nav .btn:hover {
   background-color: #135f5f;
 }
+
+.project-btn {
+  background-color: #157878;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.project-btn:hover {
+  background-color: #135f5f;
+  border-color: #fff;
+  transform: translateY(-3px);
+}
+
