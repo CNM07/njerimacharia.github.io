@@ -23,14 +23,16 @@
     
       <!-- First Row: GitHub and Home Buttons -->
       <div class="button-row">
+        <a href="{{ '/' | relative_url }}" class="btn">
+          <i class="fas fa-home"></i> 
+        </a>
+        
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="btn">
             <i class="fab fa-github"></i> 
           </a>
         {% endif %}
-        <a href="{{ '/' | relative_url }}" class="btn">
-          <i class="fas fa-home"></i> 
-        </a>
+        
         <a href="projects.html" class="btn">
             <i class="fas fa-folder-open"></i> Projects
         </a>
