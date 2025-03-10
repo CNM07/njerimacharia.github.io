@@ -19,11 +19,6 @@ BI Tools: Tableau, Power BI
 
 # Portfolio Projects
 
-<a href="#data-analytics" class="btn">Data Analytics (Python) </a>
-<a href="#ds-ml" class="btn">Data Science and Machine Learning</a>
-<a href="#sql-de" class="btn">SQL & Data Engineering</a>
-<a href="#bi-viz" class="btn">Business Intelligence & Visualization</a>
-
 ## Data Analytics (Python) {#data-analytics}
 Showcasing Python-based data analysis projects.
 
