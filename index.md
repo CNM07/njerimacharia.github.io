@@ -1,6 +1,6 @@
 ---
 title: Njeri Macharia
-description: Data Scientist
+description: Data Science Portfolio
 ---
 
 # About Me {#about}
