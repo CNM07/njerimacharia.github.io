@@ -6,6 +6,13 @@ title: Projects
 # Projects
 Welcome to my projects!
 
+<div class="project-nav">
+  <a href="#data-analytics" class="btn">Data Analytics (Python)</a>
+  <a href="#sql-de" class="btn">SQL & Data Engineering</a>
+  <a href="#bi-viz" class="btn">Business Intelligence & Visualization</a>
+  <a href="#ds-ml" class="btn">Data Science & Machine Learning</a>
+</div>
+
 ## Data Analytics (Python) {#data-analytics}
 Python-based data analysis projects. 
 
