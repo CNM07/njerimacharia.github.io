@@ -18,17 +18,27 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-       {% endif %}
-      
-        <a href="#about" class="btn">Home</a>
+    
+      <!-- First Row: GitHub and Home Buttons -->
+      <div class="button-row">
+        {% if site.github.is_project_page %}
+          <a href="{{ site.github.repository_url }}" class="btn">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        {% endif %}
+        <a href="#about" class="btn">
+          <i class="fas fa-home"></i> Home
+        </a>
+      </div>
+    
+      <!-- Second Row: Section Navigation Buttons -->
+      <div class="button-row">
         <a href="#data-analytics" class="btn">Data Analytics (Python)</a>
         <a href="#sql-de" class="btn">SQL & Data Engineering</a>
         <a href="#bi-viz" class="btn">Business Intelligence & Visualization</a>
         <a href="#ds-ml" class="btn">Data Science and Machine Learning</a>
-      
-     
+      </div>
+
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
