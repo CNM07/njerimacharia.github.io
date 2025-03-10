@@ -46,20 +46,22 @@
 }
 
 .project-btn {
-  background-color: #157878;
+  display: inline-block;
+  background-color: #157878; /* Same green as header buttons */
   color: white;
-  padding: 12px 20px;
-  border-radius: 8px;
+  padding: 10px 20px;
+  border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid white;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border: 2px solid transparent;
   transition: all 0.3s ease-in-out;
 }
 
 .project-btn:hover {
   background-color: #135f5f;
-  border-color: #fff;
-  transform: translateY(-3px);
+  transform: scale(1.05);
+  border-color: white;
 }
+
 
