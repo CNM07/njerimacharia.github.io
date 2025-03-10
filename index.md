@@ -17,7 +17,7 @@ BI Tools: Tableau, Power BI
 
 ## Contacts
 
-## Portfolio Projects
+# Portfolio Projects
 
 ## Data Analytics (Python) {#data-analytics}
 Showcasing Python-based data analysis, exploratory data analysis (EDA), and visualizations. 
@@ -28,6 +28,6 @@ Projects involving SQL queries, database management, and data engineering workfl
 ## Business Intelligence & Visualization {#bi-viz}
 Power BI dashboards, data storytelling, and visualization techniques using various tools.
 
-# Data Science and Machine Learning {#ds-ml}
+## Data Science and Machine Learning {#ds-ml}
 Showcasing Python-based machine learning projects.
 
