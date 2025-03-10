@@ -8,10 +8,10 @@ description: Projects
 Welcome to my projects!
 
 <div class="project-nav">
-  *`<a href="#data-analytics" class="project-btn">Data Analytics (Python)</a>`
-  *`<a href="#sql-de" class="project-btn">SQL & Data Engineering</a>`
-  *`<a href="#bi-viz" class="project-btn">Business Intelligence & Visualization</a>`
-  *`<a href="#ds-ml" class="project-btn">Data Science & Machine Learning</a>`
+  * `<a href="#data-analytics" class="project-btn">Data Analytics (Python)</a>`
+  * `<a href="#sql-de" class="project-btn">SQL & Data Engineering</a>`
+  * `<a href="#bi-viz" class="project-btn">Business Intelligence & Visualization</a>`
+  * `<a href="#ds-ml" class="project-btn">Data Science & Machine Learning</a>`
 </div>
 
 
