@@ -24,3 +24,23 @@
   height: auto;
   border-radius: 5px;
 }
+
+.project-nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.project-nav .btn {
+  background-color: #157878;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-nav .btn:hover {
+  background-color: #135f5f;
+}
