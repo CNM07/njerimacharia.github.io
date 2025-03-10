@@ -1,4 +1,4 @@
-# About {#about}
+# About Me
 Hi, I'm Njeri!  I'm a data scientist based in Nairobi, Kenya. I have an analytical background in Mathematics and Computer Science and currently, I am on track to completing my Master's degree in Data Science (MSc. Data Science and Analytics).
 
 ## Skills
