@@ -46,22 +46,22 @@
 }
 
 .project-btn {
-  display: inline-block;
-  background-color: #157878; /* Same green as header buttons */
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  text-align: center;
-  border: 2px solid transparent;
-  transition: all 0.3s ease-in-out;
+  display: inline-block !important;
+  background-color: #157878 !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  border: 2px solid transparent !important;
+  transition: all 0.3s ease-in-out !important;
 }
 
 .project-btn:hover {
-  background-color: #135f5f;
-  transform: scale(1.05);
-  border-color: white;
+  background-color: #135f5f !important;
+  transform: scale(1.05) !important;
+  border-color: white !important;
 }
 
 
