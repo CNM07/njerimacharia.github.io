@@ -87,6 +87,7 @@ GROUP BY
     month
 ORDER BY 
     month;
+```
 
  ---
 
@@ -115,21 +116,5 @@ ORDER BY
 - [`sql_analysis.sql`](./sql_analysis.sql) – Full SQL code (cleaning + analysis)
 
 ---
-
-## 👩‍💻 Author
-
-**Njeri Macharia**  
-Data Analyst | Passionate about storytelling with data  
-[Portfolio](https://cnm07.github.io/njerimacharia.github.io/projects.html) 
-
----
-
-## 🚀 How to Reproduce
-
-1. Clone this repository.
-2. Import the dataset into PostgreSQL using DBeaver.
-3. Run the SQL script (`online_retail_analysis.sql`) included in the repo.
-4. Modify queries or explore new angles as needed.
-
 
 > *This project is part of a personal data portfolio to demonstrate SQL data analysis skills.*
