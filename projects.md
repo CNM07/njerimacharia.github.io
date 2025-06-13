@@ -50,7 +50,7 @@ SQL queries and ETL pipeline projects.
 <div class="project-grid">
   <div class="project-tile" onclick="openProject('project5')">
     <img src="assets/images/project5.png" alt="Project 5">
-    <h3>SQL Data Analysis</h3>
+    <h3>SQL Analysis: Online Retail Sales</h3>
   </div>
   <div class="project-tile" onclick="openProject('project6')">
     <img src="assets/images/project6.png" alt="Project 6">
