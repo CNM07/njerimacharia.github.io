@@ -48,10 +48,12 @@ Machine learning models and deep learning projects.
 SQL queries and ETL pipeline projects.
 
 <div class="project-grid">
-  <div class="project-tile" onclick="openProject('project5')">
+  <div class="project-tile">
+  <a href="project5.md">
     <img src="assets/images/project5.png" alt="Project 5">
-    <h3>SQL Analysis: Online Retail Sales</h3>
-  </div>
+    <h3>SQL Data Analysis – Online Retail Sales</h3>
+  </a>
+</div>
   <div class="project-tile" onclick="openProject('project6')">
     <img src="assets/images/project6.png" alt="Project 6">
     <h3>ETL Pipeline with Python</h3>
