@@ -49,7 +49,7 @@ SQL queries and ETL pipeline projects.
 
 <div class="project-grid">
   <div class="project-tile">
-  <a href="project5.md">
+  <a href="{{ '/project5' | relative_url }}">
     <img src="assets/images/project5.png" alt="Project 5">
     <h3>SQL Data Analysis – Online Retail Sales</h3>
   </a>
