@@ -74,6 +74,22 @@ SQL queries were used to:
 
 ---
 
+## 🔍 Sample SQL Queries
+
+```sql
+-- Monthly Revenue Trend
+SELECT 
+    DATE_TRUNC('month', InvoiceDate) AS month,
+    ROUND(SUM(Quantity * UnitPrice), 2) AS total_revenue
+FROM 
+    online_retail_sales
+GROUP BY 
+    month
+ORDER BY 
+    month;
+
+ ---
+
 ## 💡 Key Insights
 
 - The top 10 customers contributed significantly to overall revenue.
