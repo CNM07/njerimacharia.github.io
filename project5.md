@@ -113,7 +113,7 @@ ORDER BY
 
 ## 📁 Files
 
-- [`sql_analysis.sql`](./sql_analysis.sql){:target="_blank"} – Full SQL code 
+- [`sql_analysis.sql`](./sql_analysis.sql) – Full SQL code 
 
 
 ---
