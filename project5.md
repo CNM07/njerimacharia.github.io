@@ -107,7 +107,6 @@ ORDER BY
 - **SQL**: PostgreSQL (via DBeaver)
 - **Data Cleaning**: SQL queries for filtering, updating, and deduplication
 - **Exploration**: SQL aggregations, CTEs, subqueries, window functions
-- **Optional for Visualization**: Power BI (can be added later)
 
 ---
 
