@@ -18,13 +18,14 @@ Welcome to my projects!
 ## Data Analytics (Python) {#data-analytics}
 #### Python-based data analysis projects. 
 
+<!--
 <div class="project-grid">
   <div class="project-tile" onclick="openProject('project1')">
     <img src="assets/images/project1.png" alt="Project 1">
     <h3>Data Cleaning & Exploratory Analysis</h3>
   </div>
+-->
 
-<!--
 <div class="project-grid">
   <div class="project-tile">
   <a href="{{ '/project1' | relative_url }}">
@@ -32,8 +33,7 @@ Welcome to my projects!
     <img src="assets/images/project1.png" alt="Project 1" style="width: auto; height: 350px;">
   </a>
 </div>
--->
-  
+
   <!--
   <div class="project-tile" onclick="openProject('project2')">
     <img src="assets/images/project2.png" alt="Project 2">
