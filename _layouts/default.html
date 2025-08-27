@@ -26,6 +26,10 @@
         <a href="{{ '/' | relative_url }}" class="btn">
           <i class="fas fa-home"></i> 
         </a>
+
+        <a href="projects.html" class="btn">
+            <i class="fas fa-folder-open"></i> Projects
+        </a>
         
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="btn">
@@ -33,9 +37,6 @@
           </a>
         {% endif %}
         
-        <a href="projects.html" class="btn">
-            <i class="fas fa-folder-open"></i> Projects
-        </a>
       </div>
 
       {% if site.show_downloads %}
