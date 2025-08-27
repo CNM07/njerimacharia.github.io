@@ -43,7 +43,7 @@ Welcome to my projects!
 </div>
 
 ## Data Science and Machine Learning {#ds-ml}
-### Machine learning models and predictive modeling projects.
+#### Machine learning models and predictive modeling projects.
 
 <div class="project-grid">
   <div class="project-tile" onclick="openProject('project3')">
@@ -78,7 +78,7 @@ Welcome to my projects!
 </div>
 
 ## Business Intelligence & Visualization {#bi-viz}
-### Power BI, Tableau, and other visualization projects.
+#### Power BI, Tableau, and other visualization projects.
 
 <div class="project-grid">
   <div class="project-tile" onclick="openProject('project7')">
