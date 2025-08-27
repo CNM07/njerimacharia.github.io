@@ -84,3 +84,7 @@ The EDA aims to uncover the following insights:
 ---
 
 ## 📁 Files
+
+---
+
+> *This project is part of a personal data portfolio to demonstrate python data analysis and cleaning skills.*
