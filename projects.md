@@ -8,22 +8,22 @@ description: Projects
 Welcome to my projects!
 
 <div class="project-nav">
-  <a href="#data-analytics" class="project-btn">Data Analytics (Python)</a>
-  <a href="#sql-de" class="project-btn">SQL & Data Engineering</a>
-  <a href="#bi-viz" class="project-btn">Business Intelligence & Visualization</a>
-  <a href="#ds-ml" class="project-btn">Data Science & Machine Learning</a>
+  <div><a href="#data-analytics" class="project-btn">Data Analytics (Python)</a></div>
+  <div><a href="#sql-de" class="project-btn">SQL & Databases</a></div>
+  <div><a href="#bi-viz" class="project-btn">Business Intelligence & Visualization</a></div>
+  <div><a href="#ds-ml" class="project-btn">Data Science & Machine Learning</a></div>
 </div>
 
 
-
 ## Data Analytics (Python) {#data-analytics}
-### Python-based data analysis projects. 
+#### Python-based data analysis projects. 
 
 <div class="project-grid">
   <div class="project-tile" onclick="openProject('project1')">
     <img src="assets/images/project1.png" alt="Project 1">
     <h3>Data Cleaning & Exploratory Analysis</h3>
   </div>
+  
   <!--
   <div class="project-tile" onclick="openProject('project2')">
     <img src="assets/images/project2.png" alt="Project 2">
@@ -33,23 +33,24 @@ Welcome to my projects!
 </div>
 
 ## Data Science and Machine Learning {#ds-ml}
-Machine learning models and deep learning projects.
+### Machine learning models and predictive modeling projects.
 
 <div class="project-grid">
   <div class="project-tile" onclick="openProject('project3')">
     <img src="assets/images/project3.png" alt="Project 3">
     <h3>Predictive Modeling</h3>
   </div>
+  
   <!--
   <div class="project-tile" onclick="openProject('project4')">
     <img src="assets/images/project4.png" alt="Project 4">
-    <h3>Deep Learning with TensorFlow</h3>
+    <h3>Text Analytics</h3>
   </div>
   -->
 </div>
 
-## SQL & Data Engineering {#sql-de}
-SQL queries and ETL pipeline projects.
+## SQL & Databases {#sql-de}
+#### SQL queries and  database management projects.
 
 <div class="project-grid">
   <div class="project-tile">
@@ -67,7 +68,7 @@ SQL queries and ETL pipeline projects.
 </div>
 
 ## Business Intelligence & Visualization {#bi-viz}
-Power BI, Tableau, and other visualization projects.
+### Power BI, Tableau, and other visualization projects.
 
 <div class="project-grid">
   <div class="project-tile" onclick="openProject('project7')">
