@@ -30,7 +30,7 @@ Welcome to my projects!
   <div class="project-tile">
   <a href="{{ '/project1' | relative_url }}">
     <h3>Data Cleaning & Exploratory Analysis</h3>
-    <img src="assets/images/project1.png" alt="Project 1" style="width: auto; height: 350px;">
+    <img src="assets/images/project1.jpg" alt="Project 1" style="width: auto; height: 350px;">
   </a>
 </div>
 
