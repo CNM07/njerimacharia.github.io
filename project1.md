@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Data Cleaning & EDA - World Happiness Report
-description: Exploring global happiness trends, uncovering key drivers of well-being, 
-and analyzing regional differences through data cleaning and exploratory data analysis (EDA).
+description: |
+  Exploring global happiness trends, uncovering key drivers of well-being, 
+  and analyzing regional differences through data cleaning and exploratory data analysis (EDA).
 ---
 
 # 🌍 World Happiness Report (Python Data Cleaning & EDA Project)
