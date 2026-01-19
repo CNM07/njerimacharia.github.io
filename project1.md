@@ -54,11 +54,14 @@ The EDA aims to uncover the following insights:
 
 ## 🧹 Data Cleaning Taks
 
-- Handle missing values (some countries don’t report every metric every year).
-- Fix inconsistent country names (e.g., “Congo (Brazzaville)” vs “Republic of Congo”).
-- Convert data types (e.g., numerical columns imported as text).
-- Normalize column names for readability (`Economy..GDP.per.Capita.` → `GDP_per_Capita`).
-- Drop or impute anomalies (e.g., tiny countries with incomplete data).
+- Inspected yearly datasets individually to identify schema and naming inconsistencies.
+- Standardized column names across years for consistency and readability (e.g., Economy..GDP.per.Capita. → gdp_per_capita).
+- Aligned schemas and merged multi-year files into a single consolidated dataset.
+- Added a year column to enable time-based analysis.
+- Verified and enforced correct data types for all numeric fields.
+- Handled missing values using logical imputation (e.g., country-level averages across years).
+- Standardized country names and derived continent-level regions for geographic analysis.
+- Performed final data integrity checks (nulls, duplicates, consistency).
 
 ---
 
