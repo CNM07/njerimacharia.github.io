@@ -52,7 +52,7 @@ The EDA focused on understanding global happiness trends, regional differences, 
 
 ---
 
-## 🧹 Data Cleaning Taks
+## 🧹 Data Cleaning Tasks
 
 - Inspected yearly datasets individually to identify schema and naming inconsistencies.
 - Standardized column names across years for consistency and readability (e.g., Economy..GDP.per.Capita. → gdp_per_capita).
@@ -65,7 +65,7 @@ The EDA focused on understanding global happiness trends, regional differences, 
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA) Visuals
+## 🔍 Exploratory Data Analysis (EDA)
 
 ### Overall Trends
 - Bar Chart: Top 10 happiest vs bottom 10 unhappiest countries (average score across years)
