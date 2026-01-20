@@ -86,6 +86,14 @@ The EDA focused on understanding global happiness trends, regional differences, 
 
 ## 🔍 Sample Analysis Visuals
 
+![GDP per Capita vs Happiness Score](assets/images/GDP_per_Capita_vs_Happiness_Score.png)
+
+This chart illustrates the strong positive relationship between GDP per capita and happiness score.
+
+![Correlation Matrix of Happiness and Key Features](assets/images/Correlation_Matrix_of_Happiness_and_Key_Features.png)
+
+This heatmap summarizes the strength of relationships between happiness scores and key contributing factors, showing that GDP per capita, life expectancy, and social support are the most strongly correlated with happiness.
+
 ---
 
 ## 💡 Key Insights
