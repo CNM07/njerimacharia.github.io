@@ -114,9 +114,9 @@ Analysis shows a strong positive relationship between GDP per capita and happine
 
 ## 🛠 Tools & Technologies
 
-- **SQL**: Data analysis and exploration (Pandas, NumPy)
-- **Data Cleaning**: Handling missing values, renaming columns, and ensuring consistency
-- **Exploration**: Descriptive statistics, correlation analysis, and visualizations (Matplotlib, Seaborn)
+- **Python (Pandas, NumPy)** - Data cleaning and exploratory analysis
+- **Matplotlib & Seaborn**: Data visualization and statistical plots
+- **Jupyter Notebook**: Analysis workflow and documentation
 
 ---
 
