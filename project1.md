@@ -32,23 +32,23 @@ deriving insights from real-world data using Python.
 
 ## 🎯 Objectives
 
-The EDA aims to uncover the following insights:
+The EDA focused on understanding global happiness trends, regional differences, and the key factors influencing well-being across countries.:
 
 ### 1. Overall Trends
 - Which countries are consistently happiest/unhappiest?
-- How has global happiness changed over time?
+- How has global happiness changed over time? 
 
 ### 2. Feature Relationships
 - Does GDP per capita strongly correlate with happiness?
 - Do social factors (trust, freedom, social support) matter more than money?
 
 ### 3. Regional Insights
-- Compare Africa vs Europe vs Asia → what drives differences?
+- How do happiness levels differ across continents?
 - How does Kenya compare to neighbors (Tanzania, Uganda, Rwanda, Ethiopia)?
 
-### 4. Outliers & Surprises
-- Countries that are happier than expected given their GDP.
-- Countries with low happiness despite wealth.
+### 4. Outliers
+- Which countries are happier than expected given their GDP?
+- Which countries underperform despite high income?
 
 ---
 
@@ -66,15 +66,41 @@ The EDA aims to uncover the following insights:
 ---
 
 ## 🔍 Exploratory Data Analysis (EDA) Visuals
-- Bar Chart: Top 10 happiest vs unhappiest countries.
-- Line Chart: Average global happiness trend (2015 → 2023).
-- Heatmap: Correlation between happiness and other features.
-- Scatter Plot: GDP per capita vs Happiness (with regional color coding).
-- Boxplot: Regional distributions of happiness scores.
+
+### Overall Trends
+- Bar Chart: Top 10 happiest vs bottom 10 unhappiest countries (average score across years)
+- Line Chart: Average global happiness score over time (by year)
+
+### Feature Relationships
+- Scatter Plot: GDP per capita vs happiness score (color-coded by continent)
+- Heatmap: Correlation between happiness score and key features (GDP, social support, freedom, corruption, generosity, life expectancy)
+
+### Regional Insights
+- Boxplot: Happiness score distribution by continent
+- Bar Chart: Kenya vs neighboring countries (average happiness score)
+
+### Outliers
+- Scatter Plot (annotated): GDP per capita vs happiness score
+
+---
+
+## 🔍 Sample Analysis Visuals
 
 ---
 
 ## 💡 Key Insights
+
+### Overall Trends
+The happiest countries are predominantly Nordic and high-income nations, led by Denmark, Norway, and Finland. These countries benefit from strong social support systems, economic stability, and high institutional trust.
+
+The least happy countries are largely affected by conflict, poverty, and governance challenges, with Burundi and the Central African Republic ranking lowest.
+
+The wide gap between top and bottom countries highlights how deeply happiness is influenced by economic security, social cohesion, and political stability.
+
+Despite major global events, average happiness levels show resilience, indicating that well-being is shaped more by long-term structural factors than short-term shocks.
+
+### Feature Relationships
+Analysis shows a strong positive relationship between GDP per capita and happiness, confirming that wealthier countries tend to report higher well-being. However, GDP alone does not fully explain happiness as countries with similar income levels often display noticeably different happiness scores. Happiness is not driven by income alone. Strong institutions, health outcomes, and social support systems are equally critical.
 
 ---
 
