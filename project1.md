@@ -80,7 +80,7 @@ The EDA focused on understanding global happiness trends, regional differences, 
 - Bar Chart: Kenya vs neighboring countries (average happiness score)
 
 ### Outliers
-- Scatter Plot (annotated): GDP per capita vs happiness score
+- Scatter Plot w Regression Line: GDP per capita vs happiness score
 
 ---
 
@@ -109,6 +109,20 @@ Despite major global events, average happiness levels show resilience, indicatin
 
 ### Feature Relationships
 Analysis shows a strong positive relationship between GDP per capita and happiness, confirming that wealthier countries tend to report higher well-being. However, GDP alone does not fully explain happiness as countries with similar income levels often display noticeably different happiness scores. Happiness is not driven by income alone. Strong institutions, health outcomes, and social support systems are equally critical.
+
+### Regional Insights
+
+Happiness levels vary significantly by region. Oceania consistently ranks highest with minimal variation, while Europe and the Americas show strong but more diverse outcomes. Asia displays wide disparities, and Africa records the lowest overall happiness scores, highlighting regional inequalities.
+
+Across East Africa, happiness trends between 2015 and 2019 reveal mixed but concerning patterns. Kenya remains the happiest country in the group and shows relative stability over time, while Uganda demonstrates gradual improvement. However, Ethiopia, Tanzania, and Rwanda experience declining happiness scores, with Tanzania showing a sharper drop after 2016. The comparison highlights how neighbouring countries can follow very different well-being trajectories despite shared regional contexts. With three out of five countries exhibiting downward trends, the findings suggest broader regional challenges impacting well-being during this period.
+
+### Outliers
+
+Although GDP per capita is strongly associated with happiness, the analysis reveals notable outliers such as some countries with higher happiness levels than their income would predict, thus highlighting the role of other factors in shaping perceived happiness beyond economic wealth alone. 
+
+### Overall Insights 
+
+Overall, this analysis underscores that happiness is a multidimensional concept, shaped by both material and non-material factors. The project demonstrates how thoughtful data preparation and exploratory analysis can transform raw datasets into meaningful insights that inform policy discussions and socio-economic understanding.
 
 ---
 
