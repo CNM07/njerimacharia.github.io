@@ -37,7 +37,7 @@ Welcome to my projects!
   <!--
   <div class="project-tile" onclick="openProject('project2')">
     <img src="assets/images/project2.png" alt="Project 2">
-    <h3>Automated Data Pipeline with Web Scraping & Analysis</h3>
+    <h3>Automated Data Pipeline with Web Scraping & Analysis/ETL Pipeline with Python</h3>
   </div>
   -->
 </div>
@@ -72,7 +72,7 @@ Welcome to my projects!
   <!--
   <div class="project-tile" onclick="openProject('project6')">
     <img src="assets/images/project6.png" alt="Project 6">
-    <h3>ETL Pipeline with Python</h3>
+    <h3>Database Mgt, Backend and Frontend SQL</h3>
   </div>
   -->
 </div>
@@ -88,7 +88,7 @@ Welcome to my projects!
   <!--
   <div class="project-tile" onclick="openProject('project8')">
     <img src="assets/images/project8.png" alt="Project 8">
-    <h3>Financial Insights (Tableau)</h3>
+    <h3>Automated Dashboard (Power BI)</h3>
   </div>
   -->
 </div>
