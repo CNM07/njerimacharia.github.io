@@ -54,7 +54,7 @@ Welcome to my projects!
   <!--
   <div class="project-tile" onclick="openProject('project4')">
     <img src="assets/images/project4.png" alt="Project 4">
-    <h3>Text Analytics</h3>
+    <h3>Text Analytics - NLP (sentiment analysis)</h3>
   </div>
   -->
 </div>
