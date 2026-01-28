@@ -136,7 +136,7 @@ Overall, this analysis underscores that happiness is a multidimensional concept,
 
 ## 📁 Files
 
-- [Jupyter Notebook – Full Analysis](https://github.com/CNM07/World-Happiness-Report-Data-Cleaning-and-EDA/blob/main/World%20Happiness%20Report.ipynb)
+- [World Happiness Report – Jupyter Notebook](./world_happiness.ipynb)
 
 ---
 
