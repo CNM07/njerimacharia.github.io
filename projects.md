@@ -12,6 +12,7 @@ Welcome to my projects!
   <div><a href="#sql-de" class="project-btn">SQL & Databases</a></div>
   <div><a href="#bi-viz" class="project-btn">Business Intelligence & Visualization</a></div>
   <div><a href="#ds-ml" class="project-btn">Data Science & Machine Learning</a></div>
+  <div><a href="#end-to-end" class="project-btn">End-to-End Projects</a></div>
 </div>
 
 
@@ -22,14 +23,14 @@ Welcome to my projects!
 <div class="project-grid">
   <div class="project-tile" onclick="openProject('project1')">
     <img src="assets/images/project1.png" alt="Project 1">
-    <h3>Data Cleaning & Exploratory Analysis</h3>
+    <h3>Data Cleaning & EDA — World Happiness Report</h3>
   </div>
 -->
 
 <div class="project-grid">
   <div class="project-tile">
   <a href="{{ '/project1' | relative_url }}">
-    <h3>Data Cleaning & Exploratory Analysis</h3>
+    <h3>Data Cleaning & EDA — World Happiness Report</h3>
     <img src="assets/images/project1.jpg" alt="Project 1" style="width: auto; height: 350px;">
   </a>
 </div>
@@ -69,10 +70,11 @@ Welcome to my projects!
     <img src="assets/images/project5.png" alt="Project 5" style="width: auto; height: 350px;">
   </a>
 </div>
+  
   <!--
   <div class="project-tile" onclick="openProject('project6')">
     <img src="assets/images/project6.png" alt="Project 6">
-    <h3>Database Mgt, Backend and Frontend SQL</h3>
+    <h3>SQL Data Analysis – Online Retail Sales</h3>
   </div>
   -->
 </div>
@@ -85,6 +87,7 @@ Welcome to my projects!
     <img src="assets/images/project7.png" alt="Project 7">
     <h3>Sales Dashboard (Power BI)</h3>
   </div>
+  
   <!--
   <div class="project-tile" onclick="openProject('project8')">
     <img src="assets/images/project8.png" alt="Project 8">
@@ -92,4 +95,27 @@ Welcome to my projects!
   </div>
   -->
 </div>
+
+## End-to-End Projects {#end-to-end}
+#### Complete projects covering data extraction, storage, analysis, and visualization. 
+
+<div class="project-grid">
+  <div class="project-tile">
+  <a href="{{ '/project9' | relative_url }}">
+    <h3>End-to-End ETL & Sales Analytics Platform</h3>
+    <img src="assets/images/project9.jpg" alt="Project 9" style="width: auto; height: 350px;">
+  </a>
+</div>
+
+<!--
+<div class="project-grid">
+  <div class="project-tile">
+    <a href="{{ '/project10' | relative_url }}">
+      <h3>Customer Analytics & Retention Insights</h3>
+      <img src="assets/images/project10.jpg" alt="Project 10" style="width: auto; height: 350px;">
+    </a>
+  </div>
+</div>
+-->
+
 
