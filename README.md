@@ -7,6 +7,7 @@ This site showcases selected projects demonstrating my skills in:
 - Python for data cleaning and analysis
 - Machine learning and predictive analytics
 - Business intelligence and data visualization
+- End-to-End Projects
 
 Projects include end-to-end analyses with real-world datasets, from data cleaning and exploration to insights and reporting.
 
