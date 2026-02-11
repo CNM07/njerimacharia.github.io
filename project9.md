@@ -21,7 +21,7 @@ This project demonstrates:
 Although the dataset comes from a simulated e-commerce API, the architecture and design patterns mirror real-world data engineering workflows, with a focus on how raw data becomes analytics-ready. The project covers the full stack of modern data work structured as follows:
 
 <div style="text-align: center;">
-  <img src="{{ '/assets/images/etl-architecture.png' | relative_url }}" 
+  <img src="{{ 'assets/images/etl-architecture.png' | relative_url }}" 
        alt="ETL Architecture Diagram" 
        style="max-width: 800px; width: 100%; border-radius: 8px;">
 </div>
