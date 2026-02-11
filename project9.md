@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "From API to Dashboard: Designing an End-to-End Data Pipeline with Python, PostgreSQL & Power BI"
-description: Complete data pipeline from API extraction to PostgreSQL storage and Power BI dashboards for sales, product, and customer insights.
+description: Complete data pipeline from API extraction to PostgreSQL storage to Power BI dashboards.
 ---
 
 # 🏗️ From API to Dashboard: Designing an End-to-End Data Pipeline with Python, PostgreSQL & Power BI
@@ -102,7 +102,119 @@ df_carts = extract_from_api("carts")
 
 ## 🧱 Phase 2 — Transformation: Normalizing Nested JSON into Relational Tables
 
-The challenge of nested data 
+### The Challenge of Nested Data 
+
+After extracting raw JSON from the API, the data was not analytics-ready. The API returned nested objects and arrays, which are not ideal for relational databases. This phase went beyond typical cleaning steps such as:
+
+- Dropping rows  
+- Cleaning column names  
+- Converting dates  
+- Changing data types  
+
+Instead, it required structural transformation.
+
+For example, the API response returned the `rating` field as a **nested dictionary**:
+
+```json
+"rating": {
+  "rate": 3.9,
+  "count": 120
+}
+```
+Relational databases do not store nested objects inside columns efficiently. Therefore, a key transformation step in this project was converting nested JSON into normalized relational tables. So before writing transformation code, I designed the following relational model:
+
+| Table       | Type       | Purpose |
+|------------|------------|----------|
+| users      | Dimension  | Customer information |
+| products   | Dimension  | Product catalog |
+| carts      | Fact       | Order-level data |
+| cart_items | Fact       | Line-level order details |
+
+
+I then proceeded to transform the `rating` field which had to be flattened for SQL compatibility. This transformation created two new columns:
+
+```python
+df["rating_rate"] = df["rating"].apply(lambda x: x["rate"])
+df["rating_count"] = df["rating"].apply(lambda x: x["count"])
+df = df.drop(columns = ["rating"])
+```
+This ensures:
+
+- SQL-ready columns  
+- Cleaner schema  
+- Easier aggregation (e.g., average rating, total review count) 
+
+### Feature Engineering
+
+From the API endpoints, I extracted three primary tables:
+
+- `products`  
+- `users`  
+- `carts`  
+
+However, based on the relational model design above, an additional table was required: **`cart_items`**.
+
+Feature engineering involves creating new variables or structures from raw data to improve usability and analytical power. In this case, I engineered `cart_items` from `carts`.
+
+**Why?** Because one cart can contain multiple products.
+
+Storing product lists inside a single cart row would:
+
+- Break relational principles  
+- Prevent proper joins  
+- Make aggregation harder  
+- Introduce redundancy  
+
+To maintain normalization, the structure had to be split.
+
+In the original `carts` structure before normalization, The `products` field inside `carts` was a **list of dictionaries** representing a one-to-many relationship:
+
+```json
+{
+  "id": 1,
+  "userId": 1,
+  "date": "2020-03-02T00:00:00.000Z",
+  "products": [
+    { "productId": 1, "quantity": 4 },
+    { "productId": 2, "quantity": 1 }
+  ]
+}
+```
+To normalize this structure, I used `.explode()` which turns each element of a list into a separate row.
+
+```python
+def create_cart_items(df):
+    
+    cart_items = df[["id", "products"]].explode("products")
+
+    cart_items["product_id"] = cart_items["products"].apply(lambda x: x["productId"])
+    cart_items["quantity"] = cart_items["products"].apply(lambda x: x["quantity"])
+
+    cart_items.rename(columns={"id": "cart_id"}, inplace=True)
+
+    cart_items.drop(columns=["products"], inplace=True)
+
+    return cart_items
+```
+**Before:**
+
+| id | products  |
+|----|----------|
+| 1  | [p1, p2] |
+
+**After `.explode("products")`:**
+
+| id | products |
+|----|----------|
+| 1  | p1       |
+| 1  | p2       |
+
+Separating `carts` and `cart_items`, ensured that the data model now:
+
+- Supports foreign key relationships  
+- Enables accurate revenue calculations  
+- Allows clean SQL joins  
+- Prevents duplication
 
 
 
