@@ -1,6 +1,6 @@
 ---
 layout: default
-title: From API to Dashboard: Designing an End-to-End Data Pipeline with Python, PostgreSQL & Power BI
+title: "From API to Dashboard: Designing an End-to-End Data Pipeline with Python, PostgreSQL & Power BI"
 description: Complete data pipeline from API extraction to PostgreSQL storage and Power BI dashboards for sales, product, and customer insights.
 ---
 
