@@ -102,7 +102,7 @@ Welcome to my projects!
 <div class="project-grid">
   <div class="project-tile">
   <a href="{{ '/project9' | relative_url }}">
-    <h3>End-to-End ETL & Sales Analytics Platform</h3>
+    <h3>From API to Dashboard: Designing an End-to-End Data Pipeline with Python, PostgreSQL & Power BI</h3>
     <img src="assets/images/project9.jpg" alt="Project 9" style="width: auto; height: 350px;">
   </a>
 </div>
