@@ -216,6 +216,35 @@ Separating `carts` and `cart_items`, ensured that the data model now:
 - Allows clean SQL joins  
 - Prevents duplication
 
+## 🗄 Phase 3 — Loading into PostgreSQL
+
+To load the data into PostgreSQL, I used **SQLAlchemy**, a Python SQL toolkit and Object Relational Mapper (ORM) that enables applications to communicate with relational databases using Python instead of writing raw connection logic.
+
+In simple terms, it acts as a bridge between Python (Pandas) and PostgreSQL. This connection is established by creating an **engine** - an object that allows Pandas to write directly into PostgreSQL tables.
+
+Once connected, I used Pandas' built-in `.to_sql()` method to load each DataFrame into its respective table.
+
+```python
+engine = create_engine(
+    "database_type://db_username:db_password@db_location:port/db_name"
+)
+
+df.to_sql(
+    "name",
+    engine,
+    if_exists="replace",
+    index=False
+)
+```
+
+**Parameters:**
+
+- `name` → Target table name  
+- `engine` → Database connection  
+- `if_exists` → Defines table behavior (e.g., replace or append)  
+- `index=False` → Prevents the Pandas index from being written as a column  
+
+## 🔎 Phase 4 — SQL Analytics Layer
 
 
 
