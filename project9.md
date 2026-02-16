@@ -318,8 +318,6 @@ After validating the warehouse in PostgreSQL, the final step was connecting the 
 
 This phase demonstrates how the star schema integrates into a BI tool and supports dynamic, context-aware calculations.
 
----
-
 ### Relationships in Model View
 
 After importing the PostgreSQL tables into Power BI, relationships were defined in the **Model View**.
