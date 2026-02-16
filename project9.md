@@ -344,7 +344,7 @@ The following primary and foreign key relationships were defined:
 
 <div style="text-align: center;">
   <img src="{{ 'assets/images/Model_View _Power_BI.png' | relative_url }}" 
-       alt="ETL Architecture Diagram" 
+       alt="ETL Model View Power BI" 
        style="max-width: 800px; width: 100%; border-radius: 8px;">
 </div>
 
@@ -371,8 +371,84 @@ CALCULATE(
 
 The final step was building an interactive dashboard to visualize revenue, customer behavior, and product performance.
 
+<div style="text-align: center;">
+  <img src="{{ 'assets/images/ETL_Sales_Overview.png' | relative_url }}" 
+       alt="ETL Sales Overview" 
+       style="max-width: 800px; width: 100%; border-radius: 8px;">
+</div>
 
+<div style="text-align: center;">
+  <img src="{{ 'assets/images/ETL_Product_Insights.png' | relative_url }}" 
+       alt="ETL Product Insights" 
+       style="max-width: 800px; width: 100%; border-radius: 8px;">
+</div>
 
+<div style="text-align: center;">
+  <img src="{{ 'assets/images/ETL_Customer_Insights.png' | relative_url }}" 
+       alt="ETL Customer Insights" 
+       style="max-width: 800px; width: 100%; border-radius: 8px;">
+</div>
 
+## 💡 Engineering & Analytics Takeaways
 
+This project demonstrates the full lifecycle of modern analytics engineering from API ingestion to business intelligence delivery.
+
+### Project Steps & Actions
+During this project, I carried out the following steps:
+
+- Designed a structured ETL pipeline to extract and normalize nested JSON data from APIs  
+- Transformed semi-structured API responses into relational tables ready for SQL querying  
+- Engineered a star schema with fact (`cart_items`, `carts`) and dimension (`products`, `users`) tables for scalable analytics  
+- Validated data integrity and business logic using analytical SQL queries  
+- Built a semantic layer in Power BI using one-to-many relationships to enable accurate aggregations  
+- Developed dynamic DAX measures (Total Revenue, Average Order Value, Repeat Customers) for context-aware reporting  
+- Delivered an end-to-end analytics workflow from raw API data to interactive, insightful dashboards
+
+### Key Learnings & Takeaways
+Some important insights and practical lessons from the project:
+
+**Why normalization matters:** 
+Ensures data integrity, prevents redundancy, and simplifies joins for analytics 
+
+**SQL vs DAX comparison:** 
+SQL performs pre-aggregated analysis at the database level, while DAX enables dynamic, filter/context-aware calculations in Power BI  
+
+**ETL design affects dashboard flexibility:** 
+Modular, well-structured pipelines make it easier to reuse, debug, and scale analytics workflows 
+
+**Flattening nested JSON is a real-world necessity:** 
+APIs often return nested data, and flattening it is critical for relational database storage and reporting  
+
+**Fact vs dimension tables:** Proper separation improves analytical clarity and performance  
+
+**Dynamic metrics enhance BI storytelling:** Measures like repeat customers or average order value allow dashboards to adapt to slicers, drilldowns, and filters 
+
+**Reusability and maintainability:** Creating Python functions for extraction and transformation reduces duplicated code and makes iterative development easier  
+
+## 🛠 Tools & Technologies
+
+**Languages & Libraries**
+- Python (Pandas, SQLAlchemy)
+- SQL (PostgreSQL)
+- DAX (Power BI)
+
+**Data Source**
+- REST API (JSON format)
+
+**Database**
+- PostgreSQL
+- DBeaver (SQL client)
+
+**BI & Visualization**
+- Power BI Desktop
+
+## 📂 Project Files
+
+- [`Python ETL.ipynb`](./Python%20ETL.ipynb) – Python notebook containing the ETL pipeline code  
+- [`ETL SQL.sql`](./ETL%20SQL.sql) – Full SQL code for analytical queries and table validations  
+- [`Power BI Analysis Dashboard.pdf`](./Power%20BI%20Analysis%20Dashboard.pdf) – Exported Power BI dashboard with visuals and DAX measures
+
+---
+
+> *This project is part of a personal data portfolio to demonstrate SQL data analysis skills.*
 
