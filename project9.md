@@ -341,6 +341,7 @@ The following primary and foreign key relationships were defined:
 | `carts.id`           | `cart_items.cart_id`     | One cart → Many cart items |
 | `products.id`        | `cart_items.product_id`  | One product → Many cart items |
 
+**Model View**
 
 <div style="text-align: center;">
   <img src="{{ 'assets/images/Model_View _Power_BI.png' | relative_url }}" 
@@ -352,7 +353,7 @@ The following primary and foreign key relationships were defined:
 
 With relationships established, DAX measures were created to support dynamic reporting. **DAX (Data Analysis Expressions)** is a formula language used in Power BI to create calculated measures and columns. Unlike SQL, which performs aggregations at the database level, DAX calculations are evaluated dynamically based on **filter context** - meaning results change automatically depending on slicers, visuals, drilldowns, or report interactions.
 
-Below is a sample DAX measure
+Below is a sample DAX measure:
 
 **Repeat Customers**
 
@@ -371,11 +372,15 @@ CALCULATE(
 
 The final step was building an interactive dashboard to visualize revenue, customer behavior, and product performance.
 
+---
+
 <div style="text-align: center;">
   <img src="{{ 'assets/images/ETL_Sales_Overview.png' | relative_url }}" 
        alt="ETL Sales Overview" 
        style="max-width: 800px; width: 100%; border-radius: 8px;">
 </div>
+
+---
 
 <div style="text-align: center;">
   <img src="{{ 'assets/images/ETL_Product_Insights.png' | relative_url }}" 
@@ -383,11 +388,15 @@ The final step was building an interactive dashboard to visualize revenue, custo
        style="max-width: 800px; width: 100%; border-radius: 8px;">
 </div>
 
+---
+
 <div style="text-align: center;">
   <img src="{{ 'assets/images/ETL_Customer_Insights.png' | relative_url }}" 
        alt="ETL Customer Insights" 
        style="max-width: 800px; width: 100%; border-radius: 8px;">
 </div>
+
+---
 
 ## 💡 Engineering & Analytics Takeaways
 
@@ -419,11 +428,14 @@ Modular, well-structured pipelines make it easier to reuse, debug, and scale ana
 **Flattening nested JSON is a real-world necessity:** 
 APIs often return nested data, and flattening it is critical for relational database storage and reporting  
 
-**Fact vs dimension tables:** Proper separation improves analytical clarity and performance  
+**Fact vs dimension tables:** 
+Proper separation improves analytical clarity and performance  
 
-**Dynamic metrics enhance BI storytelling:** Measures like repeat customers or average order value allow dashboards to adapt to slicers, drilldowns, and filters 
+**Dynamic metrics enhance BI storytelling:** 
+Measures like repeat customers or average order value allow dashboards to adapt to slicers, drilldowns, and filters 
 
-**Reusability and maintainability:** Creating Python functions for extraction and transformation reduces duplicated code and makes iterative development easier  
+**Reusability and maintainability:** 
+Creating Python functions for extraction and transformation reduces duplicated code and makes iterative development easier  
 
 ## 🛠 Tools & Technologies
 
