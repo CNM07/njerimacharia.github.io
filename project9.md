@@ -314,5 +314,65 @@ This query identifies dimension records that do not have corresponding fact tabl
 
 ## 📊 Phase 5 — Power BI Analytics Layer
 
+After validating the warehouse in PostgreSQL, the final step was connecting the database to Power BI to build a semantic layer for reporting and interactive analysis.
+
+This phase demonstrates how the star schema integrates into a BI tool and supports dynamic, context-aware calculations.
+
+---
+
+### Relationships in Model View
+
+After importing the PostgreSQL tables into Power BI, relationships were defined in the **Model View**.
+
+The schema mirrors the database design:
+
+- `users` → Dimension  
+- `products` → Dimension  
+- `carts` → Fact (order-level)  
+- `cart_items` → Fact (line-level)  
+
+Relationships were created using primary and foreign keys. A **Primary Key (PK)** is a column that uniquely identifies each record in a table. It ensures that no two rows have the same identifier. A **Foreign Key (FK)** is a column that references the primary key of another table. It establishes a relationship between two tables and maintains referential integrity. In a star schema, dimension tables contain primary keys and fact tables contain foreign keys that reference those dimensions. Relationships were configured as **one-to-many (1:M)** as this mirrors real-world transactional behavior and preserves star schema integrity.
+
+The following primary and foreign key relationships were defined:
+
+| Primary Key (1-side) | Foreign Key (Many-side) | Relationship |
+|----------------------|--------------------------|--------------|
+| `users.id`           | `carts.userId`           | One user → Many carts |
+| `carts.id`           | `cart_items.cart_id`     | One cart → Many cart items |
+| `products.id`        | `cart_items.product_id`  | One product → Many cart items |
+
+
+<div style="text-align: center;">
+  <img src="{{ 'assets/images/Model_View _Power_BI.png' | relative_url }}" 
+       alt="ETL Architecture Diagram" 
+       style="max-width: 800px; width: 100%; border-radius: 8px;">
+</div>
+
+### Creating DAX Measures
+
+With relationships established, DAX measures were created to support dynamic reporting. **DAX (Data Analysis Expressions)** is a formula language used in Power BI to create calculated measures and columns. Unlike SQL, which performs aggregations at the database level, DAX calculations are evaluated dynamically based on **filter context** - meaning results change automatically depending on slicers, visuals, drilldowns, or report interactions.
+
+Below is a sample DAX measure
+
+**Repeat Customers**
+
+```DAX
+Repeat Customers = 
+CALCULATE(
+    DISTINCTCOUNT(carts[userId]),
+    FILTER(
+        VALUES(carts[userId]),
+        CALCULATE(COUNT(carts[id])) > 1
+    )
+)
+```
+
+### Interactive Dashboard & Visual Insights
+
+The final step was building an interactive dashboard to visualize revenue, customer behavior, and product performance.
+
+
+
+
 
 
