@@ -247,9 +247,72 @@ df.to_sql(
 ## 🔎 Phase 4 — SQL Analytics Layer
 
 
+With the star schema successfully loaded into PostgreSQL, the next step was validating the structure through analytical SQL queries.
 
+Although this project focuses primarily on pipeline design rather than business analysis, this layer demonstrates that the warehouse supports:
 
+- Multi-table joins  
+- Aggregations  
+- Revenue calculations  
+- Customer and product-level insights  
 
+Below are sample queries executed against the schema.
+
+### Average Order Value
+
+```sql
+SELECT 
+    AVG(order_total) AS avg_order_value
+FROM (
+    SELECT 
+        c.id,
+        SUM(ci.quantity * p.price) AS order_total
+    FROM carts c
+    JOIN cart_items ci ON c.id = ci.cart_id
+    JOIN products p ON ci.product_id = p.id
+    GROUP BY c.id
+) sub;
+```
+
+This query demonstrates layered aggregation across transactional data.
+
+---
+
+### Top 5 Customers by Revenue
+
+```sql
+SELECT 
+    u.id,
+    u.username,
+    SUM(ci.quantity * p.price) AS customer_revenue
+FROM users u
+JOIN carts c ON u.id = c.userid
+JOIN cart_items ci ON c.id = ci.cart_id
+JOIN products p ON ci.product_id = p.id
+GROUP BY u.id, u.username
+ORDER BY customer_revenue DESC
+LIMIT 5;
+```
+
+This validates the integration of fact and dimension tables within the star schema.
+
+---
+
+### Products Never Purchased
+
+```sql
+SELECT 
+    p.id,
+    p.title
+FROM products p
+LEFT JOIN cart_items ci 
+    ON p.id = ci.product_id
+WHERE ci.product_id IS NULL;
+```
+
+This query identifies dimension records that do not have corresponding fact table entries, helping validate data completeness and uncover potential gaps in transactional coverage.
+
+## 📊 Phase 5 — Power BI Analytics Layer
 
 
 
