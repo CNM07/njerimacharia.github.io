@@ -460,5 +460,5 @@ Creating Python functions for extraction and transformation reduces duplicated c
 
 ---
 
-> *This project is part of a personal data portfolio to demonstrate SQL data analysis skills.*
+> *This project is part of a personal data portfolio to demonstrate end-to-end data pipeline skills.*
 
