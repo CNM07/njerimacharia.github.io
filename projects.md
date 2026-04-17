@@ -16,33 +16,28 @@ Welcome to my projects!
 </div>
 
 
-## Data Analytics (Python) {#data-analytics}
-#### Python-based data analysis projects. 
-
-<!--
 <div class="project-grid">
-  <div class="project-tile" onclick="openProject('project1')">
-    <img src="assets/images/project1.png" alt="Project 1">
-    <h3>Data Cleaning & EDA — World Happiness Report</h3>
+
+  <div class="project-category">
+    <h2>Data Cleaning & EDA</h2>
+    <p>Exploratory data analysis and data preparation projects.</p>
+
+    <div class="project-list">
+
+      <a href="{{ '/project1' | relative_url }}" class="project-item">
+        Data Cleaning & EDA - World Happiness Report
+      </a>
+
+      <!-- Second project (to be added later)-->
+      <a href="{{ '/project2' | relative_url }}" class="project-item">
+        Customer Data Cleaning & Analysis — Retail Dataset
+      </a>
+      
+
+    </div>
+
   </div>
--->
-
-<div class="project-grid">
-  <div class="project-tile">
-  <a href="{{ '/project1' | relative_url }}">
-    <h3>Data Cleaning & EDA — World Happiness Report</h3>
-    <!--<img src="assets/images/project1.jpg" alt="Project 1" style="width: auto; height: 350px;">-->
-  </a>
-</div>
-
-  <!--
-  <div class="project-tile" onclick="openProject('project2')">
-    <img src="assets/images/project2.png" alt="Project 2">
-    <h3>Automated Data Pipeline with Web Scraping & Analysis/ETL Pipeline with Python</h3>
-  </div>
-  -->
-</div>
-
+  
 ## Data Science and Machine Learning {#ds-ml}
 #### Machine learning models and predictive modeling projects.
 
