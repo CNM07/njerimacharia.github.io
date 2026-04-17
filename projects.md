@@ -31,7 +31,7 @@ Welcome to my projects!
   <div class="project-tile">
   <a href="{{ '/project1' | relative_url }}">
     <h3>Data Cleaning & EDA — World Happiness Report</h3>
-    <img src="assets/images/project1.jpg" alt="Project 1" style="width: auto; height: 350px;">
+    <!--<img src="assets/images/project1.jpg" alt="Project 1" style="width: auto; height: 350px;">-->
   </a>
 </div>
 
@@ -48,7 +48,7 @@ Welcome to my projects!
 
 <div class="project-grid">
   <div class="project-tile" onclick="openProject('project3')">
-    <img src="assets/images/project3.png" alt="Project 3">
+    <!--<img src="assets/images/project3.png" alt="Project 3">-->
     <h3>Predictive Modeling</h3>
   </div>
   
@@ -67,7 +67,7 @@ Welcome to my projects!
   <div class="project-tile">
   <a href="{{ '/project5' | relative_url }}">
     <h3>SQL Data Analysis – Online Retail Sales</h3>
-    <img src="assets/images/project5.png" alt="Project 5" style="width: auto; height: 350px;">
+    <!--<img src="assets/images/project5.png" alt="Project 5" style="width: auto; height: 350px;">-->
   </a>
 </div>
   
@@ -84,7 +84,7 @@ Welcome to my projects!
 
 <div class="project-grid">
   <div class="project-tile" onclick="openProject('project7')">
-    <img src="assets/images/project7.png" alt="Project 7">
+    <!--<img src="assets/images/project7.png" alt="Project 7">-->
     <h3>Sales Dashboard (Power BI)</h3>
   </div>
   
@@ -103,7 +103,7 @@ Welcome to my projects!
   <div class="project-tile">
   <a href="{{ '/project9' | relative_url }}">
     <h3>From API to Dashboard: Designing an End-to-End Data Pipeline with Python, PostgreSQL & Power BI</h3>
-    <img src="assets/images/project9.jpg" alt="Project 9" style="width: auto; height: 350px;">
+    <!--<img src="assets/images/project9.jpg" alt="Project 9" style="width: auto; height: 350px;">-->
   </a>
 </div>
 
