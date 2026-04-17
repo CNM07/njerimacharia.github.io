@@ -1,3 +1,4 @@
+
 /* =========================
    PROJECT GRID (structure only)
 ========================= */
@@ -44,33 +45,39 @@
 }
 
 /* =========================
-   NAVIGATION BUTTONS
+   NAVIGATION (PILL WRAP LAYOUT - FINAL)
 ========================= */
 .project-nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 12px;
-  margin: 20px 0;
+  gap: 14px;
+  margin: 25px auto;
+  max-width: 700px;
+  padding: 10px;
 }
 
+/* Pill-style buttons */
 .project-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 999px;   /* perfect pill shape */
   background-color: #157878;
   color: white;
-  padding: 10px 16px;
-  border-radius: 20px;
-  text-decoration: none;
   font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
   transition: all 0.2s ease;
 }
 
+/* Hover effect */
 .project-btn:hover {
   background-color: #135f5f;
   transform: translateY(-2px);
 }
 
 /* =========================
-   REMOVE OLD TILE SYSTEM (no longer used)
+   OLD TILE SYSTEM (disabled safely)
 ========================= */
 /*
 .project-tile {
