@@ -15,6 +15,7 @@ Welcome to my projects!
   <a href="#end-to-end" class="project-btn">End-to-End Projects</a>
 </div>
 
+---
 
 ## Data Cleaning & EDA {#data-analytics}
 #### Exploratory data analysis and data preparation projects.
