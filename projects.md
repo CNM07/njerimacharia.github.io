@@ -8,19 +8,20 @@ description: Projects
 Welcome to my projects!
 
 <div class="project-nav">
-  <div><a href="#data-analytics" class="project-btn">Data Analytics (Python)</a></div>
-  <div><a href="#sql-de" class="project-btn">SQL & Databases</a></div>
-  <div><a href="#bi-viz" class="project-btn">Business Intelligence & Visualization</a></div>
-  <div><a href="#ds-ml" class="project-btn">Data Science & Machine Learning</a></div>
-  <div><a href="#end-to-end" class="project-btn">End-to-End Projects</a></div>
+  <a href="#data-analytics" class="project-btn">Data Cleaning & EDA</a>
+  <a href="#sql-de" class="project-btn">SQL & Databases</a>
+  <a href="#bi-viz" class="project-btn">Business Intelligence & Visualization</a>
+  <a href="#ds-ml" class="project-btn">Data Science & Machine Learning</a>
+  <a href="#end-to-end" class="project-btn">End-to-End Projects</a>
 </div>
 
+
+## Data Cleaning & EDA {#data-analytics}
+#### Exploratory data analysis and data preparation projects.
 
 <div class="project-grid">
 
   <div class="project-category">
-    <h2>Data Cleaning & EDA</h2>
-    <p>Exploratory data analysis and data preparation projects.</p>
 
     <div class="project-list">
 
@@ -28,89 +29,124 @@ Welcome to my projects!
         Data Cleaning & EDA - World Happiness Report
       </a>
 
-      <!-- Second project (to be added later)-->
+      <!-- Future project
       <a href="{{ '/project2' | relative_url }}" class="project-item">
         Customer Data Cleaning & Analysis — Retail Dataset
       </a>
-      
+      -->
 
     </div>
 
   </div>
-  
+
+</div>
+
+---
+
 ## Data Science and Machine Learning {#ds-ml}
 #### Machine learning models and predictive modeling projects.
 
 <div class="project-grid">
-  <div class="project-tile" onclick="openProject('project3')">
-    <!--<img src="assets/images/project3.png" alt="Project 3">-->
-    <h3>Predictive Modeling</h3>
+
+  <div class="project-category">
+
+    <div class="project-list">
+
+      <a href="#" class="project-item" onclick="openProject('project3')">
+        Predictive Modeling
+      </a>
+
+      <!-- Future project
+      <a href="#" class="project-item" onclick="openProject('project4')">
+        Text Analytics - NLP (sentiment analysis)
+      </a>
+      -->
+
+    </div>
+
   </div>
-  
-  <!--
-  <div class="project-tile" onclick="openProject('project4')">
-    <img src="assets/images/project4.png" alt="Project 4">
-    <h3>Text Analytics - NLP (sentiment analysis)</h3>
-  </div>
-  -->
+
 </div>
+
+---
 
 ## SQL & Databases {#sql-de}
-#### SQL queries and  database management projects.
+#### SQL queries and database management projects.
 
 <div class="project-grid">
-  <div class="project-tile">
-  <a href="{{ '/project5' | relative_url }}">
-    <h3>SQL Data Analysis – Online Retail Sales</h3>
-    <!--<img src="assets/images/project5.png" alt="Project 5" style="width: auto; height: 350px;">-->
-  </a>
-</div>
-  
-  <!--
-  <div class="project-tile" onclick="openProject('project6')">
-    <img src="assets/images/project6.png" alt="Project 6">
-    <h3>SQL Data Analysis – Online Retail Sales</h3>
+
+  <div class="project-category">
+
+    <div class="project-list">
+
+      <a href="{{ '/project5' | relative_url }}" class="project-item">
+        SQL Data Analysis – Online Retail Sales
+      </a>
+
+      <!-- Future project
+      <a href="{{ '/project6' | relative_url }}" class="project-item">
+        SQL Data Cleaning & Advanced Queries Project
+      </a>
+      -->
+
+    </div>
+
   </div>
-  -->
+
 </div>
+
+---
 
 ## Business Intelligence & Visualization {#bi-viz}
 #### Power BI, Tableau, and other visualization projects.
 
 <div class="project-grid">
-  <div class="project-tile" onclick="openProject('project7')">
-    <!--<img src="assets/images/project7.png" alt="Project 7">-->
-    <h3>Sales Dashboard (Power BI)</h3>
+
+  <div class="project-category">
+
+    <div class="project-list">
+
+      <a href="#" class="project-item" onclick="openProject('project7')">
+        Sales Dashboard (Power BI)
+      </a>
+
+      <!-- Future project
+      <a href="{{ '/project8' | relative_url }}" class="project-item">
+        Automated Dashboard (Power BI)
+      </a>
+      -->
+
+    </div>
+
   </div>
-  
-  <!--
-  <div class="project-tile" onclick="openProject('project8')">
-    <img src="assets/images/project8.png" alt="Project 8">
-    <h3>Automated Dashboard (Power BI)</h3>
-  </div>
-  -->
+
 </div>
+
+---
 
 ## End-to-End Projects {#end-to-end}
-#### Complete projects covering data extraction, storage, analysis, and visualization. 
+#### Complete projects covering data extraction, storage, analysis, and visualization.
 
 <div class="project-grid">
-  <div class="project-tile">
-  <a href="{{ '/project9' | relative_url }}">
-    <h3>From API to Dashboard: Designing an End-to-End Data Pipeline with Python, PostgreSQL & Power BI</h3>
-    <!--<img src="assets/images/project9.jpg" alt="Project 9" style="width: auto; height: 350px;">-->
-  </a>
-</div>
 
-<!--
-<div class="project-grid">
-  <div class="project-tile">
-    <a href="{{ '/project10' | relative_url }}">
-      <h3>Customer Analytics & Retention Insights</h3>
-      <img src="assets/images/project10.jpg" alt="Project 10" style="width: auto; height: 350px;">
-    </a>
+  <div class="project-category">
+
+    <div class="project-list">
+
+      <a href="{{ '/project9' | relative_url }}" class="project-item">
+        From API to Dashboard: Designing an End-to-End Data Pipeline with Python, PostgreSQL & Power BI
+      </a>
+
+      <!-- Future project
+      <a href="{{ '/project10' | relative_url }}" class="project-item">
+        Customer Analytics & Retention Insights
+      </a>
+      -->
+
+    </div>
+
   </div>
+
 </div>
--->
 
 
