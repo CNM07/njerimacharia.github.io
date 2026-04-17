@@ -1,11 +1,78 @@
+/* =========================
+   PROJECT GRID (structure only)
+========================= */
 .project-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
-  gap: 20px; /* Adds spacing between tiles */
-  max-width: 800px; /* Optional: Adjusts the width */
-  margin: auto; /* Centers the grid */
+  max-width: 800px;
+  margin: auto;
 }
 
+/* =========================
+   PROJECT CATEGORY BLOCK
+========================= */
+.project-category {
+  margin-bottom: 30px;
+}
+
+.project-category h2 {
+  margin-bottom: 5px;
+}
+
+.project-category p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+/* =========================
+   PROJECT LIST ITEMS
+========================= */
+.project-list {
+  padding-left: 10px;
+}
+
+.project-item {
+  display: block;
+  padding: 6px 0;
+  color: #157878;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.project-item:hover {
+  text-decoration: underline;
+  transform: translateX(3px);
+}
+
+/* =========================
+   NAVIGATION BUTTONS
+========================= */
+.project-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.project-btn {
+  background-color: #157878;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.project-btn:hover {
+  background-color: #135f5f;
+  transform: translateY(-2px);
+}
+
+/* =========================
+   REMOVE OLD TILE SYSTEM (no longer used)
+========================= */
+/*
 .project-tile {
   background: #ffffff;
   padding: 15px;
@@ -24,44 +91,4 @@
   height: auto;
   border-radius: 5px;
 }
-
-.project-nav {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin: 20px 0;
-}
-
-.project-nav .btn {
-  background-color: #157878;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.project-nav .btn:hover {
-  background-color: #135f5f;
-}
-
-.project-btn {
-  display: inline-block !important;
-  background-color: #157878 !important;
-  color: white !important;
-  padding: 10px 20px !important;
-  border-radius: 5px !important;
-  text-decoration: none !important;
-  font-weight: bold !important;
-  text-align: center !important;
-  border: 2px solid transparent !important;
-  transition: all 0.3s ease-in-out !important;
-}
-
-.project-btn:hover {
-  background-color: #135f5f !important;
-  transform: scale(1.05) !important;
-  border-color: white !important;
-}
-
-
+*/
