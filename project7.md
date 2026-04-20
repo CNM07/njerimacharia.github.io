@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Retail Sales Analysis: Performance, Customers & Product Trends
+title: Retail Sales Analysis - Performance, Customers & Product Trends
 description: An interactive Power BI dashboard analyzing retail sales performance, customer behavior, and product performance and geographic trends to uncover meaningful business insights.
 ---
 
