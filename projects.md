@@ -53,12 +53,12 @@ Welcome to my projects!
 
     <div class="project-list">
 
-      <a href="#" class="project-item" onclick="openProject('project3')">
+      <a a href="{{ '/project3' | relative_url }}" class="project-item"">
         Predictive Modeling
       </a>
 
       <!-- Future project
-      <a href="#" class="project-item" onclick="openProject('project4')">
+      <a href="{{ '/project4' | relative_url }}" class="project-item"">
         Text Analytics - NLP (sentiment analysis)
       </a>
       -->
@@ -107,7 +107,7 @@ Welcome to my projects!
 
     <div class="project-list">
 
-      <a href="#" class="project-item" onclick="openProject('project7')">
+      <a href="{{ '/project7' | relative_url }}" class="project-item"">
         Sales Dashboard (Power BI)
       </a>
 
