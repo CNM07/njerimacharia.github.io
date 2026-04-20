@@ -108,7 +108,7 @@ Welcome to my projects!
     <div class="project-list">
 
       <a href="{{ '/project7' | relative_url }}" class="project-item"">
-        Sales Dashboard (Power BI)
+        Retail Sales Analysis - Performance, Customers & Product Trends
       </a>
 
       <!-- Future project
