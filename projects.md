@@ -59,6 +59,7 @@ description: Projects
 </div>
 
 ---
+
 <div class="test-card-row">
 
   <div class="test-card">
@@ -72,6 +73,7 @@ description: Projects
   </div>
 
 </div>
+
 ---
 
 ### Data Cleaning & EDA {#data-analytics}
