@@ -49,7 +49,7 @@
 ========================= */
 .project-nav {
   text-align: center;
-  margin: 25px 0;
+  margin: 20px 0;
 }
 
 /* ONLY ONE BUTTON SYSTEM — no duplicates */
@@ -58,9 +58,9 @@
   margin: 6px;
   padding: 10px 16px;
 
-  background-color: #157878;
-  color: white;
-  border: 1px solid #157878;
+  background-color: #4db6ac;
+  color: black;
+  border: 1px solid #4db6ac;
 
   border-radius: 6px;
   text-decoration: none;
