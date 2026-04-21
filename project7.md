@@ -148,7 +148,7 @@ These allow users to quickly filter and explore specific segments without overwh
 
 <div style="background-color: #FFFFFF; padding: 16px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
 
-![Retail Sales Dashboard](../assets/images/retail-sales-dashboard.png)
+![Retail Sales Dashboard](assets/images/retail-sales-dashboard.png)
 
 <p style="text-align: center; font-size: 14px; color: #6B7280; margin-top: 8px;">
 Interactive Power BI dashboard showing sales performance, customer insights, and product trends across time and regions.
