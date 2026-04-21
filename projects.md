@@ -15,6 +15,23 @@ Welcome to my projects!
   <a href="#end-to-end" class="project-btn">End-to-End Projects</a>
 </div>
 
+<div class="button-row">
+        <a href="{{ '/' | relative_url }}" class="btn">
+          <i class="fas fa-home"></i> 
+        </a>
+
+        <a href="projects.html" class="btn">
+            <i class="fas fa-folder-open"></i> Projects
+        </a>
+        
+        {% if site.github.is_project_page %}
+          <a href="{{ site.github.repository_url }}" class="btn">
+            <i class="fab fa-github"></i> 
+          </a>
+        {% endif %}
+        
+      </div>
+
 ---
 
 ## Data Cleaning & EDA {#data-analytics}
