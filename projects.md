@@ -60,16 +60,16 @@ description: Projects
 
 ---
 
-<div class="test-card-row">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 30px auto; max-width: 900px;">
 
-  <div class="test-card">
+  <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
     <h3>Test Card A</h3>
-    <p>This is a layout test card.</p>
+    <p>This is a test card.</p>
   </div>
 
-  <div class="test-card">
+  <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
     <h3>Test Card B</h3>
-    <p>This is a layout test card.</p>
+    <p>This is a test card.</p>
   </div>
 
 </div>
