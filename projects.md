@@ -60,29 +60,33 @@ Welcome to my projects!
 
 <div class="projects-two-col">
 
-  ## Data Cleaning & EDA {#data-analytics}
-  ### Exploratory data analysis and data preparation projects.
-  
-  <div class="project-grid">
-  
-    <div class="project-category">
-  
-      <div class="project-list">
-  
-        <a href="{{ '/project1' | relative_url }}" class="project-item">
-          Data Cleaning & EDA - World Happiness Report
-        </a>
-  
-        <!-- Future project
-        <a href="{{ '/project2' | relative_url }}" class="project-item">
-          Customer Data Cleaning & Analysis — Retail Dataset
-        </a>
-        -->
-  
+  <div id="data_analytics>
+
+    ## Data Cleaning & EDA {#data-analytics}
+    ### Exploratory data analysis and data preparation projects.
+    
+    <div class="project-grid">
+    
+      <div class="project-category">
+    
+        <div class="project-list">
+    
+          <a href="{{ '/project1' | relative_url }}" class="project-item">
+            Data Cleaning & EDA - World Happiness Report
+          </a>
+    
+          <!-- Future project
+          <a href="{{ '/project2' | relative_url }}" class="project-item">
+            Customer Data Cleaning & Analysis — Retail Dataset
+          </a>
+          -->
+    
+        </div>
+    
       </div>
-  
+    
     </div>
-  
+
   </div>
   
   ---
