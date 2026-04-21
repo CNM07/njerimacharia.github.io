@@ -148,9 +148,9 @@ These allow users to quickly filter and explore specific segments without overwh
 
 <div style="background-color: #FFFFFF; padding: 16px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
 
-![Retail Sales Dashboard](assets/images/retail-sales-dashboard.png)
+![Retail Sales Dashboard]({{ '/assets/images/retail-sales-dashboard.png' | relative_url }})
 
-<p style="text-align: center; font-size: 14px; color: #6B7280; margin-top: 8px;">
+<p style="text-align: center; font-size: 10px; color: #6B7280; margin-top: 8px;">
 Interactive Power BI dashboard showing sales performance, customer insights, and product trends across time and regions.
 </p>
 
@@ -161,7 +161,7 @@ Interactive Power BI dashboard showing sales performance, customer insights, and
 ## 💡 Key Analytics Insights
 
 - Sales are concentrated in a few top-performing countries, with The United Kingdom leading revenue generation - €9M in sales. 
- - The highest revenue-generating products differ from the most purchased products, indicating pricing differences across items. The most purchased product by quantity ranks only 3rd place in total sales, suggesting lower unit price.
+- The highest revenue-generating products differ from the most purchased products, indicating pricing differences across items. The most purchased product by quantity ranks only 3rd place in total sales, suggesting lower unit price.
 - Sales trend shows seasonality over time, with peaks observed in November 2011 and declines in both February and April of the same year.
 
 ---
