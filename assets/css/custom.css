@@ -74,6 +74,20 @@
 }
 
 /* =========================
+   PROJECT PAGE BUTTON OVERRIDE
+========================= */
+.project-nav .btn {
+  background-color: #157878 !important;
+  color: white !important;
+  border: 1px solid #157878 !important;
+}
+
+.project-nav .btn:hover {
+  background-color: #135f5f !important;
+  border-color: #135f5f !important;
+}
+
+/* =========================
    OLD TILE SYSTEM (disabled safely)
 ========================= */
 /*
