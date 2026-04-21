@@ -56,9 +56,9 @@ description: Projects
     End-to-End Projects
   </a>
 
----
-
 </div>
+
+---
 
 <div class="project-category" id="data-analytics">
 
@@ -87,52 +87,27 @@ description: Projects
 
 </div>
 
-### Data Cleaning & EDA {#data-analytics}
-#### Exploratory data analysis and data preparation projects.
-
-<div class="project-grid">
-
-  <div class="project-category">
-
-    <div class="project-list">
-
-      <a href="{{ '/project1' | relative_url }}" class="project-item">
-        Data Cleaning & EDA - World Happiness Report
-      </a>
-
-      <!-- Future project
-      <a href="{{ '/project2' | relative_url }}" class="project-item">
-        Customer Data Cleaning & Analysis — Retail Dataset
-      </a>
-      -->
-
-    </div>
-
-  </div>
-
-</div>
-
 ---
 
-### Data Science and Machine Learning {#ds-ml}
-#### Machine learning models and predictive modeling projects.
+<div class="project-category" id="ds-ml">
 
-<div class="project-grid">
+  <h3 style="text-align:center;">Data Science and Machine Learning</h3>
+  <h4 style="text-align:center;">
+    Machine learning models and predictive modeling projects.
+  </h4>
 
-  <div class="project-category">
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; max-width:900px; margin:20px auto;">
 
-    <div class="project-list">
-
-      <a href="{{ '/project3' | relative_url }}" class="project-item">
+    <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd; text-align:center;">
+      <a href="{{ '/project3' | relative_url }}" style="text-decoration:none; color:#157878; font-weight:500;">
         Predictive Modeling
       </a>
+    </div>
 
-      <!-- Future project
-      <a href="{{ '/project4' | relative_url }}" class="project-item">
+    <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd; text-align:center;">
+      <a href="{{ '/project4' | relative_url }}" style="text-decoration:none; color:#157878; font-weight:500;">
         Text Analytics - NLP (sentiment analysis)
       </a>
-      -->
-
     </div>
 
   </div>
@@ -141,25 +116,25 @@ description: Projects
 
 ---
 
-### SQL & Databases {#sql-de}
-#### SQL queries and database management projects.
+<div class="project-category" id="sql-de">
 
-<div class="project-grid">
+  <h3 style="text-align:center;">SQL & Databases</h3>
+  <h4 style="text-align:center;">
+    SQL queries and database management projects.
+  </h4>
 
-  <div class="project-category">
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; max-width:900px; margin:20px auto;">
 
-    <div class="project-list">
-
-      <a href="{{ '/project5' | relative_url }}" class="project-item">
+    <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd; text-align:center;">
+      <a href="{{ '/project5' | relative_url }}" style="text-decoration:none; color:#157878; font-weight:500;">
         SQL Data Analysis – Online Retail Sales
       </a>
+    </div>
 
-      <!-- Future project
-      <a href="{{ '/project6' | relative_url }}" class="project-item">
+    <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd; text-align:center;">
+      <a href="{{ '/project6' | relative_url }}" style="text-decoration:none; color:#157878; font-weight:500;">
         SQL Data Cleaning & Advanced Queries Project
       </a>
-      -->
-
     </div>
 
   </div>
@@ -168,25 +143,25 @@ description: Projects
 
 ---
 
-### Business Intelligence & Visualization {#bi-viz}
-#### Power BI, Tableau, and other visualization projects.
+<div class="project-category" id="bi-viz">
 
-<div class="project-grid">
+  <h3 style="text-align:center;">Business Intelligence & Visualization</h3>
+  <h4 style="text-align:center;">
+    Power BI, Tableau, and other visualization projects.
+  </h4>
 
-  <div class="project-category">
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; max-width:900px; margin:20px auto;">
 
-    <div class="project-list">
-
-      <a href="{{ '/project7' | relative_url }}" class="project-item">
+    <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd; text-align:center;">
+      <a href="{{ '/project7' | relative_url }}" style="text-decoration:none; color:#157878; font-weight:500;">
         Retail Sales Analysis - Performance, Customers & Product Trends
       </a>
+    </div>
 
-      <!-- Future project
-      <a href="{{ '/project8' | relative_url }}" class="project-item">
+    <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd; text-align:center;">
+      <a href="{{ '/project8' | relative_url }}" style="text-decoration:none; color:#157878; font-weight:500;">
         Automated Dashboard (Power BI)
       </a>
-      -->
-
     </div>
 
   </div>
@@ -195,29 +170,28 @@ description: Projects
 
 ---
 
-### End-to-End Projects {#end-to-end}
-#### Complete projects covering data extraction, storage, analysis, and visualization.
+<div class="project-category" id="end-to-end">
 
-<div class="project-grid">
+  <h3 style="text-align:center;">End-to-End Projects</h3>
+  <h4 style="text-align:center;">
+    Complete projects covering data extraction, storage, analysis, and visualization.
+  </h4>
 
-  <div class="project-category">
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; max-width:900px; margin:20px auto;">
 
-    <div class="project-list">
-
-      <a href="{{ '/project9' | relative_url }}" class="project-item">
-        From API to Dashboard: Designing an End-to-End Data Pipeline with Python, PostgreSQL & Power BI
+    <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd; text-align:center;">
+      <a href="{{ '/project9' | relative_url }}" style="text-decoration:none; color:#157878; font-weight:500;">
+        From API to Dashboard: Designing an End-to-End Data Pipeline
       </a>
+    </div>
 
-      <!-- Future project
-      <a href="{{ '/project10' | relative_url }}" class="project-item">
+    <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd; text-align:center;">
+      <a href="{{ '/project10' | relative_url }}" style="text-decoration:none; color:#157878; font-weight:500;">
         Customer Analytics & Retention Insights
       </a>
-      -->
-
     </div>
 
   </div>
 
 </div>
-
 
