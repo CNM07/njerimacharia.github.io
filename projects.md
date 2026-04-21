@@ -20,15 +20,15 @@ Welcome to my projects!
 
 <div class="project-nav">
 
-  <a href="#data-analytics" class="btn">Data Cleaning & EDA</a>
+  <a href="#data-analytics" class="btn" style="color: #4db6ac !important;">Data Cleaning & EDA</a>
 
-  <a href="#sql-de" class="btn">SQL & Databases</a>
+  <a href="#sql-de" class="btn" style="color: #4db6ac !important;">SQL & Databases</a>
 
-  <a href="#bi-viz" class="btn">BI & Visualization</a>
+  <a href="#bi-viz" class="btn" style="color: #4db6ac !important;">BI & Visualization</a>
 
-  <a href="#ds-ml" class="btn">Data Science</a>
+  <a href="#ds-ml" class="btn" style="color: #4db6ac !important;">Data Science</a>
 
-  <a href="#end-to-end" class="btn">End-to-End</a>
+  <a href="#end-to-end" class="btn" style="color: #4db6ac !important;">End-to-End</a>
 
 </div>
 
