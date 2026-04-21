@@ -7,13 +7,14 @@ description: Projects
 # Projects
 Welcome to my projects!
 
-<div class="project-nav">
+<!--<div class="project-nav">
   <a href="#data-analytics" class="project-btn">Data Cleaning & EDA</a>
   <a href="#sql-de" class="project-btn">SQL & Databases</a>
   <a href="#bi-viz" class="project-btn">Business Intelligence & Visualization</a>
   <a href="#ds-ml" class="project-btn">Data Science & Machine Learning</a>
   <a href="#end-to-end" class="project-btn">End-to-End Projects</a>
 </div>
+-->
 
 ---
 
