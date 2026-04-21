@@ -152,6 +152,31 @@
 }
 
 /* =========================
+   TEST 2-COLUMN CARDS
+========================= */
+.test-card-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.test-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+  text-align: center;
+}
+
+.test-card h3 {
+  margin-bottom: 8px;
+}
+
+/* =========================
    OLD TILE SYSTEM (disabled safely)
 ========================= */
 /*
