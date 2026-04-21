@@ -60,7 +60,7 @@ Welcome to my projects!
 
 <div class="projects-two-col">
 
-  <div id="data_analytics>
+  <div id="data_analytics">
 
     ## Data Cleaning & EDA {#data-analytics}
     ### Exploratory data analysis and data preparation projects.
