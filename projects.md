@@ -18,11 +18,11 @@ Welcome to my projects!
 
 ---
 
-<div class="button-row project-nav" style="text-align: center; color: black; margin: 20px 0;">
+<div class="button-row project-nav" style="text-align: center; margin: 20px 0;">
 
   <a href="#data-analytics" class="btn">Data Cleaning & EDA</a>
 
-  <a href="#sql-de" class="btn">SQL & Databases</a>
+  <a href="#sql-de" class="btn" style="color: black !important">SQL & Databases</a>
 
   <a href="#bi-viz" class="btn">BI & Visualization</a>
 
