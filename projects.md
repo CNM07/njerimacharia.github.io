@@ -60,23 +60,37 @@ description: Projects
 
 ---
 
-### Data Cleaning & EDA {#data-analytics}
-#### Exploratory data analysis and data preparation projects.
+<div class="project-category" id="data-analytics">
 
-<h3 style="text-align:center;">Data Cleaning & EDA</h3>
-<h4 style="text-align:center;">
-  Exploratory data analysis and data preparation projects.
-</h4>
-
-<div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
-  <h3>Test Card A</h3>
-  <p>This is a test card.</p>
-</div>
+  <h3 style="text-align:center;">Data Cleaning & EDA</h3>
+  <h4 style="text-align:center;">
+    Exploratory data analysis and data preparation projects.
+  </h4>
+  
+  <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
     
-<div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
-  <h3>Test Card B</h3>
-  <p>This is a test card.</p>
-</div>
+    <div class="project-grid">
+
+      <div class="project-category">
+    
+        <div class="project-list">
+    
+          <a href="{{ '/project1' | relative_url }}" class="project-item">
+            Data Cleaning & EDA - World Happiness Report
+          </a>
+    
+        </div>
+    
+      </div>
+    
+    </div>
+    
+  </div>
+      
+  <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
+    <h3>Test Card B</h3>
+    <p>This is a test card.</p>
+  </div>
 
 </div>
 
