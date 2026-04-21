@@ -146,13 +146,15 @@ These allow users to quickly filter and explore specific segments without overwh
 
 ## 📊 Dashboard Preview
 
-<div style="background-color: #FFFFFF; padding: 16px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+<div style="background-color: #FFFFFF; padding: 16px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align:center;">
 
-![Retail Sales Dashboard]({{ '/assets/images/retail-sales-dashboard.png' | relative_url }})
+  <img src="{{ '/assets/images/retail-sales-dashboard.png' | relative_url }}" 
+       alt="Retail Sales Dashboard"
+       style="max-width: 800px; width: 100%; border-radius: 8px;">
 
-<p style="text-align: center; font-size: 10px; color: #6B7280; margin-top: 8px;">
-Interactive Power BI dashboard showing sales performance, customer insights, and product trends across time and regions.
-</p>
+  <p style="font-size: 12px; color: #6B7280; margin-top: 10px;">
+    Interactive Power BI dashboard showing sales performance, customer insights, and product trends across time and regions.
+  </p>
 
 </div>
 
