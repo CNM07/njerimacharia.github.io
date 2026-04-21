@@ -20,7 +20,13 @@ Welcome to my projects!
 
 <div class="project-nav">
 
-  <a href="#data-analytics" class="btn" style="color: #4db6ac !important;">Data Cleaning & EDA</a>
+  <a href="#data-analytics" class="btn"
+   style="color:#4db6ac !important;
+          border:1px solid #4db6ac !important;
+          background:none !important;
+          text-decoration:none;">
+  Data Cleaning & EDA
+</a>
 
   <a href="#sql-de" class="btn" style="color: #4db6ac !important;">SQL & Databases</a>
 
