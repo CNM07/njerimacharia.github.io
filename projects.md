@@ -56,9 +56,9 @@ description: Projects
     End-to-End Projects
   </a>
 
-</div>
-
 ---
+
+</div>
 
 <div class="project-category" id="data-analytics">
 
@@ -69,37 +69,23 @@ description: Projects
 
   <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; max-width:900px; margin:20px auto;">
 
-  
+    <!-- CARD 1 -->
     <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
-      
-      <div class="project-grid">
-  
-        <div class="project-category">
-      
-          <div class="project-list">
-      
-            <a href="{{ '/project1' | relative_url }}" class="project-item">
-              Data Cleaning & EDA - World Happiness Report
-            </a>
-      
-          </div>
-      
-        </div>
-      
-      </div>
-      
+      <a href="{{ '/project1' | relative_url }}" class="project-item">
+        Data Cleaning & EDA - World Happiness Report
+      </a>
     </div>
-        
+
+    <!-- CARD 2 -->
     <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
-      <h3>Test Card B</h3>
-      <p>This is a test card.</p>
+      <a href="{{ '/project2' | relative_url }}" class="project-item">
+        Project 2
+      </a>
     </div>
 
   </div>
 
 </div>
-
----
 
 ### Data Cleaning & EDA {#data-analytics}
 #### Exploratory data analysis and data preparation projects.
