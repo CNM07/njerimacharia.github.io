@@ -52,7 +52,7 @@ description: Projects
             background:none !important;
             text-decoration: none;
             font-size: 14px;">
-    End-to-End
+    End-to-End Projects
   </a>
 
 </div>
