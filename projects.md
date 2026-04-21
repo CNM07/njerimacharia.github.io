@@ -5,6 +5,7 @@ description: Projects
 ---
 
 # Projects
+---
 
 ### Welcome to my projects!
 
@@ -58,9 +59,23 @@ description: Projects
 </div>
 
 ---
+<div class="test-card-row">
 
-## Data Cleaning & EDA {#data-analytics}
-### Exploratory data analysis and data preparation projects.
+  <div class="test-card">
+    <h3>Test Card A</h3>
+    <p>This is a layout test card.</p>
+  </div>
+
+  <div class="test-card">
+    <h3>Test Card B</h3>
+    <p>This is a layout test card.</p>
+  </div>
+
+</div>
+---
+
+### Data Cleaning & EDA {#data-analytics}
+#### Exploratory data analysis and data preparation projects.
 
 <div class="project-grid">
 
@@ -86,8 +101,8 @@ description: Projects
 
 ---
 
-## Data Science and Machine Learning {#ds-ml}
-### Machine learning models and predictive modeling projects.
+### Data Science and Machine Learning {#ds-ml}
+#### Machine learning models and predictive modeling projects.
 
 <div class="project-grid">
 
@@ -113,8 +128,8 @@ description: Projects
 
 ---
 
-## SQL & Databases {#sql-de}
-### SQL queries and database management projects.
+### SQL & Databases {#sql-de}
+#### SQL queries and database management projects.
 
 <div class="project-grid">
 
@@ -140,8 +155,8 @@ description: Projects
 
 ---
 
-## Business Intelligence & Visualization {#bi-viz}
-### Power BI, Tableau, and other visualization projects.
+### Business Intelligence & Visualization {#bi-viz}
+#### Power BI, Tableau, and other visualization projects.
 
 <div class="project-grid">
 
@@ -167,8 +182,8 @@ description: Projects
 
 ---
 
-## End-to-End Projects {#end-to-end}
-### Complete projects covering data extraction, storage, analysis, and visualization.
+### End-to-End Projects {#end-to-end}
+#### Complete projects covering data extraction, storage, analysis, and visualization.
 
 <div class="project-grid">
 
