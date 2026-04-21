@@ -66,30 +66,35 @@ description: Projects
   <h4 style="text-align:center;">
     Exploratory data analysis and data preparation projects.
   </h4>
-  
-  <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
-    
-    <div class="project-grid">
 
-      <div class="project-category">
-    
-        <div class="project-list">
-    
-          <a href="{{ '/project1' | relative_url }}" class="project-item">
-            Data Cleaning & EDA - World Happiness Report
-          </a>
-    
-        </div>
-    
-      </div>
-    
-    </div>
-    
-  </div>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; max-width:900px; margin:20px auto;">
+
+  
+    <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
       
-  <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
-    <h3>Test Card B</h3>
-    <p>This is a test card.</p>
+      <div class="project-grid">
+  
+        <div class="project-category">
+      
+          <div class="project-list">
+      
+            <a href="{{ '/project1' | relative_url }}" class="project-item">
+              Data Cleaning & EDA - World Happiness Report
+            </a>
+      
+          </div>
+      
+        </div>
+      
+      </div>
+      
+    </div>
+        
+    <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
+      <h3>Test Card B</h3>
+      <p>This is a test card.</p>
+    </div>
+
   </div>
 
 </div>
