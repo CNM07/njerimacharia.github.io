@@ -52,7 +52,16 @@
   margin: 20px 0;
 }
 
+
 /* ONLY ONE BUTTON SYSTEM — no duplicates */
+
+.project-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
 .project-nav a.btn {
   display: inline-block;
   margin: 6px;
