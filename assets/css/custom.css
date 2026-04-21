@@ -80,6 +80,7 @@
 }
 
 .project-nav a.btn:hover {
+  text-decoration: underline;
   background-color: #135f5f;
   border-color: #135f5f;
   transform: translateY(-2px);
