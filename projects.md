@@ -63,8 +63,31 @@ description: Projects
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 30px auto; max-width: 900px;">
 
   <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
-    <h3>Test Card A</h3>
-    <p>This is a test card.</p>
+    ### Data Cleaning & EDA {#data-analytics}
+    #### Exploratory data analysis and data preparation projects.
+    
+    <div class="project-grid">
+    
+      <div class="project-category">
+    
+        <div class="project-list">
+    
+          <a href="{{ '/project1' | relative_url }}" class="project-item">
+            Data Cleaning & EDA - World Happiness Report
+          </a>
+    
+          <!-- Future project
+          <a href="{{ '/project2' | relative_url }}" class="project-item">
+            Customer Data Cleaning & Analysis — Retail Dataset
+          </a>
+          -->
+    
+        </div>
+    
+      </div>
+    
+    </div>
+    
   </div>
 
   <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
