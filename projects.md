@@ -63,8 +63,8 @@ description: Projects
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 30px auto; max-width: 900px;">
 
   <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd;">
-    ### Data Cleaning & EDA {#data-analytics}
-    #### Exploratory data analysis and data preparation projects.
+    <h3>Data Cleaning & EDA</h3>{#data-analytics}
+    <h4>Exploratory data analysis and data preparation projects.</h4>
     
     <div class="project-grid">
     
