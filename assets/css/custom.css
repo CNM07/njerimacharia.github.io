@@ -1,8 +1,3 @@
-.projects-page {
-  background-color: #111;
-  padding: 20px;
-  min-height: 100vh;
-}
 
 /* =========================
    PROJECT GRID (structure only)
@@ -25,7 +20,7 @@
 
 .project-category p {
   margin-bottom: 10px;
-  color: #666;
+  color: #aaa;
 }
 
 /* =========================
@@ -38,7 +33,7 @@
 .project-item {
   display: block;
   padding: 6px 0;
-  color: #157878;
+  color: #4db6ac; /* lighter green for dark bg */
   text-decoration: none;
   font-weight: 500;
   transition: all 0.2s ease;
@@ -50,68 +45,36 @@
 }
 
 /* =========================
-   NAVIGATION (SIMPLE CHIP STYLE - FINAL FIX)
+   PROJECT NAV (BUTTONS - CLEAN FINAL)
 ========================= */
 .project-nav {
   text-align: center;
   margin: 25px 0;
 }
 
-.project-btn {
+/* ONLY ONE BUTTON SYSTEM — no duplicates */
+.project-nav a.btn {
   display: inline-block;
   margin: 6px;
   padding: 10px 16px;
 
-  background: #157878;
+  background-color: #157878;
   color: white;
+  border: 1px solid #157878;
 
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
 
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease;
 }
 
-.project-btn:hover {
-  background: #135f5f;
-}
-
-/* =========================
-   PROJECT PAGE BUTTON OVERRIDE
-========================= */
-.project-nav .btn {
-  background-color: #157878 !important;
-  color: white !important;
-  border: 1px solid #157878 !important;
-}
-
-.project-nav .btn:hover {
-  background-color: #135f5f !important;
-  border-color: #135f5f !important;
-}
-
-/* =========================
-   FORCE BUTTON VISIBILITY (PROJECT PAGE)
-========================= */
-.project-nav a.btn {
-  background-color: #157878 !important;
-  color: white !important;
-  border: 1px solid #157878 !important;
-
-  display: inline-block;
-  padding: 10px 16px;
-  border-radius: 6px;
-
-  text-decoration: none;
-}
-
 .project-nav a.btn:hover {
-  background-color: #135f5f !important;
-  border-color: #135f5f !important;
+  background-color: #135f5f;
+  border-color: #135f5f;
+  transform: translateY(-2px);
 }
-
 
 /* =========================
    OLD TILE SYSTEM (disabled safely)
