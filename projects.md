@@ -18,7 +18,7 @@ Welcome to my projects!
 
 ---
 
-<div class="button-row project-nav">
+<div class="project-nav">
 
   <a href="#data-analytics" class="btn">Data Cleaning & EDA</a>
 
