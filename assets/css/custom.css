@@ -88,6 +88,27 @@
 }
 
 /* =========================
+   FORCE BUTTON VISIBILITY (PROJECT PAGE)
+========================= */
+.project-nav a.btn {
+  background-color: #157878 !important;
+  color: white !important;
+  border: 1px solid #157878 !important;
+
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 6px;
+
+  text-decoration: none;
+}
+
+.project-nav a.btn:hover {
+  background-color: #135f5f !important;
+  border-color: #135f5f !important;
+}
+
+
+/* =========================
    OLD TILE SYSTEM (disabled safely)
 ========================= */
 /*
