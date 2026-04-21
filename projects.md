@@ -22,7 +22,7 @@ Welcome to my projects!
 
   <a href="#data-analytics" class="btn">Data Cleaning & EDA</a>
 
-  <a href="#sql-de" class="btn" style="color: black !important">SQL & Databases</a>
+  <a href="#sql-de" class="btn">SQL & Databases</a>
 
   <a href="#bi-viz" class="btn">BI & Visualization</a>
 
