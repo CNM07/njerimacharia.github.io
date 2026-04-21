@@ -6,7 +6,7 @@ description: Projects
 
 # Projects
 
-## Welcome to my projects!
+### Welcome to my projects!
 
 <div class="project-nav" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin:15px 0;">
 
