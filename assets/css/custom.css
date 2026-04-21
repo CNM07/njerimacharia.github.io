@@ -87,6 +87,71 @@
 }
 
 /* =========================
+   2-COLUMN LAYOUT
+========================= */
+.projects-two-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* =========================
+   CATEGORY CARD
+========================= */
+.project-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* =========================
+   HEADINGS INSIDE CARD
+========================= */
+.project-card h2 {
+  margin-bottom: 5px;
+}
+
+.project-card p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* =========================
+   PROJECT LINKS
+========================= */
+.project-item {
+  display: block;
+  padding: 6px 0;
+  color: #157878;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-item:hover {
+  text-decoration: underline;
+  transform: translateX(3px);
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+  .projects-two-col {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================
    OLD TILE SYSTEM (disabled safely)
 ========================= */
 /*
