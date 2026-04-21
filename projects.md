@@ -17,22 +17,19 @@ Welcome to my projects!
 
 ---
 
-<div class="button-row">
-        <a href="{{ '/' | relative_url }}" class="btn">
-          <i class="fas fa-home"></i> 
-        </a>
+<div class="button-row" style="text-align: center; margin: 20px 0;">
 
-        <a href="projects.html" class="btn">
-            <i class="fas fa-folder-open"></i> Projects
-        </a>
-        
-        {% if site.github.is_project_page %}
-          <a href="{{ site.github.repository_url }}" class="btn">
-            <i class="fab fa-github"></i> 
-          </a>
-        {% endif %}
-        
-      </div>
+  <a href="#data-analytics" class="btn">Data Cleaning & EDA</a>
+
+  <a href="#sql-de" class="btn">SQL & Databases</a>
+
+  <a href="#bi-viz" class="btn">BI & Visualization</a>
+
+  <a href="#ds-ml" class="btn">Data Science</a>
+
+  <a href="#end-to-end" class="btn">End-to-End</a>
+
+</div>
 
 ---
 
