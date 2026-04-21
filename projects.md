@@ -4,6 +4,8 @@ title: Njeri Macharia
 description: Projects
 ---
 
+<div class="projects-page">
+
 # Projects
 Welcome to my projects!
 
@@ -164,6 +166,8 @@ Welcome to my projects!
     </div>
 
   </div>
+
+</div>
 
 </div>
 
