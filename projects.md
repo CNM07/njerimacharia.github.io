@@ -18,23 +18,52 @@ Welcome to my projects!
 
 ---
 
-<div class="project-nav">
+<div class="project-nav" style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin:15px 0;">
 
   <a href="#data-analytics" class="btn"
-   style="color:#4db6ac !important;
-          border:1px solid #4db6ac !important;
-          background:none !important;
-          text-decoration:none;">
-  Data Cleaning & EDA
-</a>
+     style="color:#4db6ac !important;
+            border:1px solid #4db6ac !important;
+            background:none !important;
+            text-decoration: underline;
+            font-size: 14px;">
+    Data Cleaning & EDA
+  </a>
 
-  <a href="#sql-de" class="btn" style="color: #4db6ac !important;">SQL & Databases</a>
+  <a href="#sql-de" class="btn"
+     style="color:#4db6ac !important;
+            border:1px solid #4db6ac !important;
+            background:none !important;
+            text-decoration: underline;
+            font-size: 14px;">
+    SQL & Databases
+  </a>
 
-  <a href="#bi-viz" class="btn" style="color: #4db6ac !important;">BI & Visualization</a>
+  <a href="#bi-viz" class="btn"
+     style="color:#4db6ac !important;
+            border:1px solid #4db6ac !important;
+            background:none !important;
+            text-decoration: underline;
+            font-size: 14px;">
+    BI & Visualization
+  </a>
 
-  <a href="#ds-ml" class="btn" style="color: #4db6ac !important;">Data Science</a>
+  <a href="#ds-ml" class="btn"
+     style="color:#4db6ac !important;
+            border:1px solid #4db6ac !important;
+            background:none !important;
+            text-decoration: underline;
+            font-size: 14px;">
+    Data Science
+  </a>
 
-  <a href="#end-to-end" class="btn" style="color: #4db6ac !important;">End-to-End</a>
+  <a href="#end-to-end" class="btn"
+     style="color:#4db6ac !important;
+            border:1px solid #4db6ac !important;
+            background:none !important;
+            text-decoration: underline;
+            font-size: 14px;">
+    End-to-End
+  </a>
 
 </div>
 
