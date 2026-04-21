@@ -17,7 +17,7 @@ Welcome to my projects!
 
 ---
 
-<div class="button-row" style="text-align: center; margin: 20px 0;">
+<div class="button-row project-nav" style="text-align: center; margin: 20px 0;">
 
   <a href="#data-analytics" class="btn">Data Cleaning & EDA</a>
 
