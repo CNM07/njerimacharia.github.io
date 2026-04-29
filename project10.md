@@ -1,6 +1,6 @@
 ---
 layout: default
-title: From Web Scraping to App Development: Sentiment Analysis of Mobile Devices & Accessories Reviews (Jumia Kenya)
+title: "From Web Scraping to App Development: Sentiment Analysis of Mobile Devices & Accessories Reviews (Jumia Kenya)"
 description: End-to-end data project analyzing customer sentiment from Jumia Kenya reviews using NLP techniques and machine learning, with insights delivered through an interactive Streamlit app.
 ---
 
