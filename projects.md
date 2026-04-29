@@ -185,7 +185,7 @@ description: Projects
 
     <div style="background:white; padding:20px; border-radius:12px; border:1px solid #ddd; text-align:center;">
       <a href="{{ '/project10' | relative_url }}" style="text-decoration:none; color:#4db6ac; font-weight:500;">
-        Project 10
+        From Web Scraping to App Development: Analyzing Customer Sentiment
       </a>
     </div>
 
