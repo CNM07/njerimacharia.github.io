@@ -14,9 +14,9 @@ The project is structured in three main parts:
 
 **Part 1: Data Collection** - Web scraping product reviews and metadata from the Jumia Kenya website
 
-**Part 2: Data Analysis & Sentiment Modeling** - Cleaning, exploring, and analyzing review data using natural language processing (NLP) techniques, including rule-based methods and machine learning models
+**Part 2: Data Analysis & Sentiment Modeling** - Cleaning, exploring, and analyzing review data using natural language         processing (NLP) techniques, including rule-based methods and machine learning models
 
-**Part 3: Interactive Application** - Building a Streamlit app to present insights and allow users to explore sentiment trends dynamically
+**Part 3: Interactive Application** - Building a Streamlit app to present insights and allow users to explore sentiment      trends dynamically
 
 The goal of this project is to demonstrate the full data workflow - from raw data acquisition to insight generation and delivery - while applying both traditional analytics and text-based modeling techniques in a real-world context.
 
@@ -26,7 +26,7 @@ The goal of this project is to demonstrate the full data workflow - from raw dat
 
 ---
 
-## 🔄 Phase 1: Data Collection (Web Scraping)
+## 🔄 PART 1: Data Collection (Web Scraping)
 
 ### What is Web Scraping?
 
@@ -40,12 +40,13 @@ We use a library like `Requests` to send a request (like a browser would) to a w
 **2. The Parsing**  
 We use `BeautifulSoup` to navigate and "sift through" that HTML. Web pages are built using **HTML tags** (like `<div>`, `<p>`, `<h1>`), which define the structure of the content.
 
-    For example:
+For example:
+
     - `<h1>` might contain a product name  
     - `<p>` might contain a review  
     - `<span>` might contain a price  
 
-    With `BeautifulSoup`, we can search for specific tags or classes and extract only the data we care about.
+With `BeautifulSoup`, we can search for specific tags or classes and extract only the data we care about.
 
 **3. The Storage**  
 Once the data is extracted, we use `Pandas` to structure it into a table format and save it as a CSV or Excel file for analysis.
@@ -56,7 +57,7 @@ In this project, web scraping is used to collect product reviews and related dat
 
 Below is a simple example using Python:
 
-```python id="ex_scrape"
+```python 
 # 1. Import Necessary Libraries
 import requests
 from bs4 import BeautifulSoup
